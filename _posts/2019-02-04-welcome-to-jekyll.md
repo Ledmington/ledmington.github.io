@@ -3,7 +3,7 @@ layout: post
 title:  "This is an example post"
 summary: "I am trying to understand how _posts works"
 author: ledmington
-date: '2022-03-217 23:38:00 +0100'
+date: '2022-03-17 23:38:00 +0100'
 category: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
