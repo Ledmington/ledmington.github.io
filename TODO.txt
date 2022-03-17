@@ -1,4 +1,5 @@
 Capire come creare il container docker con il sito (per vederlo in locale) e preparare uno script (o un makefile) con le istruzioni
+Capire come aprire la dashboard admin
 
 Cambiare fototessera
 
