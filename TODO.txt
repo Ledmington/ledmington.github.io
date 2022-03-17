@@ -1,0 +1,44 @@
+Capire come creare il container docker con il sito (per vederlo in locale) e preparare uno script (o un makefile) con le istruzioni
+
+Cambiare fototessera
+
+Rimuovere carrello in alto a destra
+Rimuovere caffè in basso a destra
+
+Rimuovere "built by Sujay" in basso a sinistra
+
+Rimuovere "signup for weekly email newsletters" dal footer
+
+Aggiungere descrizione più lunga in About a destra
+
+Modificare Skills in About
+
+Aggiungere tutorato nelle Work Experience
+
+Aggiungere la laurea triennale e quella magistrale in Education
+
+Aggiungere progetto di tesi in Projects
+
+Rimuovere gli altri autori in _authors/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
+
+Rimuovere gli altri post in _posts/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
+
+Change "Star" and "Fork" on Home
+
+Change profile picture in Home
+
+Aggiungere link al CV
+
+Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
+
+Rimuovere immagini inutili da assets/img/
+
+Rimuovere prodotti e shop
+
+Rimuovere screenshot
+
+Modificare il README mettendo le procedure per modificare il sito (o mettere i puntatori ai file in cui si spiega)
+
+Cercare di capire quali file sono inutili ed eliminarli
+
+Cercare altri temi per jekyll e capire come impostarli

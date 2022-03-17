@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Filippo Barbari: Student
 
 url: "https://ledmington.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/about" # the subpath of your site, e.g. /blog
 
 urls:
     - text: Home
@@ -19,10 +19,10 @@ urls:
     #  url : /shop
     - text: Contact
       url : /contact
-    #- text: Styleguide
-    #  url: /styleguide
-    #- text: Get Started
-    #  url: /get-started
+    - text: Styleguide
+      url: /styleguide
+    - text: Get Started
+      url: /get-started
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
