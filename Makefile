@@ -1,7 +1,12 @@
-.PHONY: default
+DC=docker-compose -f docker-compose-dev.yml
+
+.PHONY: up build
 
 build:
-	docker build -t ledmington_website -f website.Dockerfile .
+	${DC} build
 
-default:
-	docker build -t ledmington_website .
+up:
+	${DC} up
+
+down:
+	${DC} down

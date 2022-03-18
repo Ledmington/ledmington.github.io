@@ -6,12 +6,14 @@ services:
     build:
       context: .
       args:
-        build_command: "jekyll build --watch"
+        #build_command: jekyll build --watch
+        build_command: jekyll build && jekyll serve --livereload --drafts --trace
     volumes:
       - ".:/srv/jekyll"
     ports:
       - 4000:4000
       - 35729:35729
+
   nginx:
     image: nginx
     volumes:

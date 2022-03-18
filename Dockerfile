@@ -4,11 +4,12 @@ WORKDIR /srv/jekyll
 
 ADD . /srv/jekyll
 
-RUN gem install bundler && \
-    rm -rf Gemfile.lock && \
-    chmod -R 777 ${PWD} && \
-    bundle update && \
-    bundle install
+RUN gem install bundler
+RUN rm -rf Gemfile.lock
+RUN chmod -R 777 ${PWD} -v
+RUN bundle update
+RUN bundle install
+
     # jekyll build && \
     # jekyll serve --livereload --drafts --trace
 
@@ -17,4 +18,4 @@ ENV BUILD_COMMAND ${build_command}
 
 CMD ${BUILD_COMMAND}
 
-# EXPOSE 4000
+EXPOSE 4000
