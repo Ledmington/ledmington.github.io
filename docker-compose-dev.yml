@@ -6,8 +6,8 @@ services:
     build:
       context: .
       args:
-        #build_command: jekyll build --watch
-        build_command: jekyll build && jekyll serve --livereload --drafts --trace
+        #build_command: jekyll build --watch  # use build for production
+        build_command: jekyll serve --livereload --drafts --trace --incremental   # use serve for local development
     volumes:
       - ".:/srv/jekyll"
     ports:
