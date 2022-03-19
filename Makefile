@@ -10,3 +10,7 @@ up:
 
 down:
 	${DC} down
+
+clean:
+	rm -rf build
+	rm -rf .jekyll-cache
