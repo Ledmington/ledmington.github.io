@@ -3,11 +3,6 @@ Capire come aprire la dashboard admin
 
 Cambiare fototessera
 
-Rimuovere carrello in alto a destra
-Rimuovere caffè in basso a destra
-
-Rimuovere "built by Sujay" in basso a sinistra
-
 Rimuovere "signup for weekly email newsletters" dal footer
 
 Aggiungere descrizione più lunga in About a destra
