@@ -37,26 +37,20 @@ typewrite-text: Developer and student
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: University of Bologna
+              company_logo: unibo_logo.jpg
+              company_url: https://www.unibo.it/it
+              designation: Tutor
+              description: Tutor of the Algorithms and Data Structures course
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: unibo_logo.jpg
+                college_name: University of Bologna
+                college_url: https://www.unibo.it/it
+                college_degree: Computer Science and Engineering
+                description: Bachelor's degree
                 visibility: true
 
 # Projects

@@ -5,8 +5,6 @@ Cambiare fototessera
 
 Cambiare favicon.ico
 
-Rimuovere "signup for weekly email newsletters" dal footer
-
 Aggiungere descrizione più lunga in About a destra
 
 Modificare Skills in About
@@ -30,8 +28,6 @@ Aggiungere link al CV
 Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
 
 Rimuovere immagini inutili da assets/img/
-
-Rimuovere prodotti e shop
 
 Rimuovere screenshot
 
