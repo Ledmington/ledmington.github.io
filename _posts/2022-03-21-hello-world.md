@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "This is an example post"
-summary: "I am trying to understand how _posts works"
+title:  "Hello World"
+summary: "Starting a new journey with blogging"
 author: ledmington
-date: '2022-03-17 23:38:00 +0100'
-category: jekyll
+date: '2022-03-21 10:50:00 +0100'
+category: blog
 thumbnail: /screenshot.png
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
-permalink: /blog/example-post/
+permalink: /blog/hello-world/
 usemathjax: true
 ---
 

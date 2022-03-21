@@ -1,6 +1,6 @@
 DC=docker-compose -f docker-compose-dev.yml
 
-.PHONY: build
+.PHONY: serve
 
 build:
 	${DC} build
@@ -10,6 +10,11 @@ up:
 
 down:
 	${DC} down
+
+serve:
+	bundle update
+	bundle install
+	bundle exec jekyll serve --watch
 
 clean:
 	rm -rf build

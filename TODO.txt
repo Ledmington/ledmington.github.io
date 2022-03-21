@@ -3,6 +3,8 @@ Capire come aprire la dashboard admin
 
 Cambiare fototessera
 
+Cambiare favicon.ico
+
 Rimuovere "signup for weekly email newsletters" dal footer
 
 Aggiungere descrizione più lunga in About a destra
@@ -38,3 +40,5 @@ Modificare il README mettendo le procedure per modificare il sito (o mettere i p
 Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
+
+Change LinkedIn link
