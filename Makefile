@@ -5,7 +5,7 @@ DC=docker-compose -f docker-compose-dev.yml
 build:
 	${DC} build
 
-up:
+up: build
 	${DC} up --remove-orphans
 
 down:

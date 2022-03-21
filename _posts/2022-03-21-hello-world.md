@@ -3,16 +3,15 @@ layout: post
 title:  "Hello World"
 summary: "Starting a new journey with blogging"
 author: ledmington
-date: '2022-03-21 10:50:00 +0100'
+date: '2022-03-21 10:50:00 +0000'
 category: blog
 thumbnail: /screenshot.png
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
+keywords: blog, hello-world
 permalink: /blog/hello-world/
 usemathjax: true
 ---
 
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+TODO: write this post
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
