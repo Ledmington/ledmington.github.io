@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:stable as builder
+FROM jekyll/jekyll:3.8.6 as build
 
 WORKDIR /srv/jekyll
 
@@ -6,7 +6,8 @@ ADD . /srv/jekyll
 
 RUN gem install bundler
 RUN rm -rf Gemfile.lock
-RUN chmod -R 777 ${PWD} -v
+#RUN chmod -R 777 ${PWD}
+RUN chown jekyll:jekyll -R /usr/gem
 RUN bundle update
 RUN bundle install
 

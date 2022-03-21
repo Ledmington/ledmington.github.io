@@ -1,12 +1,12 @@
 DC=docker-compose -f docker-compose-dev.yml
 
-.PHONY: up build
+.PHONY: build
 
 build:
 	${DC} build
 
 up:
-	${DC} up
+	${DC} up --remove-orphans
 
 down:
 	${DC} down
