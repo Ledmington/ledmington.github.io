@@ -28,7 +28,7 @@ urls:
 
 author_logo: profile.jpeg
 author: Filippo Barbari
-author_bio: "Filippo Barbari: developer and student"
+author_bio: "Developer and master student at University of Bologna. Algorithms and Data Structures enthusiast."
 author_email: "filippo.barbari@gmail.com"
 author_location: Italy
 author_website_url: "https://ledmington.github.io"
@@ -55,16 +55,16 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: cuda.jpg
+                project_title: CUDA implementation of the Bellman-Ford algorithm
+                project_description: Bachelor thesis
+                project_url: https://github.com/Ledmington/bellman-ford-cuda
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+              #- project_thumbnail: hack4r.PNG
+              #  project_title: Hack4r
+              #  project_description: A Platform built for Hackers and Penetration Testers
+              #  project_url: https://hack4r.com
+              #  visibility: true
 
 external_links:
   - name: Development

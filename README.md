@@ -67,6 +67,11 @@ Once everything is good and ready to go live -
 `docker-compose -f docker-compose-prod.yml up --build --detach`
 
 
+### For local development
+`bundle update`
+`bundle install`
+`bundle exec jekyll serve --drafts --unpublished --future --trace`
+
 ### Add an image
 
 ### Add a post

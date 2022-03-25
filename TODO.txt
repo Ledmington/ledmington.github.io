@@ -38,3 +38,7 @@ Cercare di capire quali file sono inutili ed eliminarli
 Cercare altri temi per jekyll e capire come impostarli
 
 Change LinkedIn link
+
+Fix search
+
+Add DDML to projects in about
