@@ -84,6 +84,8 @@ Actual remote dashboard: ledmington.github.io/admin and then login via GitHub.
 ## Add a post
 [Jekyll docs](https://jekyllrb.com/docs/posts/)
 
+For helpful MarkDown tricks, check the `styleguide.md` file.
+
 ## Add an author
 
 ## Add a category
