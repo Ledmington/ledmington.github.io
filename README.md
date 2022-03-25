@@ -67,23 +67,26 @@ Once everything is good and ready to go live -
 `docker-compose -f docker-compose-prod.yml up --build --detach`
 
 
-### For local development
+## For local development
 `bundle update`
+
 `bundle install`
+
 `bundle exec jekyll serve --drafts --unpublished --future --trace`
 
-### Open admin dashboard
-Local dashboard: [](http://localhost:4000/admin)
-Actual remote dashboard: [](ledmington.github.io/admin) and then login via GitHub.
+## Open admin dashboard
+Local dashboard: http://localhost:4000/admin
 
-### Add an image
+Actual remote dashboard: ledmington.github.io/admin and then login via GitHub.
 
-### Add a post
-![Jekyll docs](https://jekyllrb.com/docs/posts/)
+## Add an image
 
-### Add an author
+## Add a post
+[Jekyll docs](https://jekyllrb.com/docs/posts/)
 
-### Add a category
+## Add an author
 
-### Modify skills
-For now, skills are hard-coded into the `_includes/author_skills.html` file. ![Here](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#example-1-skills-and-abilities) explains how to have some more dynamic skills.
+## Add a category
+
+## Modify skills
+For now, skills are hard-coded into the `_includes/author_skills.html` file. [Here](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#example-1-skills-and-abilities) explains how to have some more dynamic skills.
