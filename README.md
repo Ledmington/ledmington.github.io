@@ -65,3 +65,13 @@ Stop the app :
 Once everything is good and ready to go live -
 
 `docker-compose -f docker-compose-prod.yml up --build --detach`
+
+
+### Add an image
+
+### Add a post
+![Jekyll docs](https://jekyllrb.com/docs/posts/)
+
+### Add an author
+
+### Add a category
