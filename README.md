@@ -72,6 +72,10 @@ Once everything is good and ready to go live -
 `bundle install`
 `bundle exec jekyll serve --drafts --unpublished --future --trace`
 
+### Open admin dashboard
+Local dashboard: [](http://localhost:4000/admin)
+Actual remote dashboard: [](ledmington.github.io/admin) and then login via GitHub.
+
 ### Add an image
 
 ### Add a post
@@ -80,3 +84,6 @@ Once everything is good and ready to go live -
 ### Add an author
 
 ### Add a category
+
+### Modify skills
+For now, skills are hard-coded into the `_includes/author_skills.html` file. ![Here](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#example-1-skills-and-abilities) explains how to have some more dynamic skills.
