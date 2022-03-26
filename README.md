@@ -90,6 +90,8 @@ For post examples, check the `old_posts` directory.
 
 A post's filename must (apparently) follow the convention `YYYY-MM-DD-name-of-post.md`.
 
+The thumbnail of the post must be in the `/assets/img` directory and the `thumbnail` tag must be the complete path to the image.
+
 ## Add an author
 
 ## Add a category
