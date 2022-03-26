@@ -26,7 +26,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.jpeg
+author_logo: authors/ledmington.jpeg
 author: Filippo Barbari
 author_bio: "Developer and master student at University of Bologna. Algorithms and Data Structures enthusiast."
 author_email: "filippo.barbari@gmail.com"
@@ -124,8 +124,6 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 collections:
-  products:
-    output: true
   authors:
     output: true
 

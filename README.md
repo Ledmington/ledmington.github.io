@@ -75,7 +75,7 @@ Then run `make serve`.
 ## Open admin dashboard
 Local dashboard: http://localhost:4000/admin
 
-Actual remote dashboard: ledmington.github.io/admin and then login via GitHub.
+Actual remote dashboard: https://ledmington.github.io/admin and then login via GitHub.
 
 ## Add an image
 
