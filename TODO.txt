@@ -4,12 +4,6 @@ Capire come aprire la dashboard admin
 
 Cambiare favicon.ico
 
-Aggiungere tutorato nelle Work Experience
-
-Aggiungere la laurea triennale e quella magistrale in Education
-
-Aggiungere progetto di tesi in Projects
-
 Rimuovere gli altri autori in _authors/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
 
 Rimuovere gli altri post in _posts/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
@@ -17,8 +11,6 @@ Rimuovere gli altri post in _posts/ (creando un template in cui si spiega cosa f
 Change "Star" and "Fork" on Home
 
 Change profile picture in Home
-
-Aggiungere link al CV
 
 Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
 
