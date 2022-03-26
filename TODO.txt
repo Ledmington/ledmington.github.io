@@ -4,11 +4,7 @@ Capire come aprire la dashboard admin
 
 Rimuovere gli altri autori in _authors/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
 
-Rimuovere gli altri post in _posts/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
-
 Change "Star" and "Fork" on Home
-
-Change profile picture in Home
 
 Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
 

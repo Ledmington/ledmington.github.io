@@ -84,7 +84,11 @@ Actual remote dashboard: ledmington.github.io/admin and then login via GitHub.
 ## Add a post
 [Jekyll docs](https://jekyllrb.com/docs/posts/)
 
-For helpful MarkDown tricks, check the `styleguide.md` file.
+For helpful Markdown tricks, check the `styleguide.md` file.
+
+For post examples, check the `old_posts` directory.
+
+A post's filename must (apparently) follow the convention `YYYY-MM-DD-name-of-post.md`.
 
 ## Add an author
 
