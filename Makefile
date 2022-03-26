@@ -11,10 +11,12 @@ up: build
 down:
 	${DC} down
 
-serve:
+install:
 	bundle update
 	bundle install
-	bundle exec jekyll serve --watch
+
+serve:
+	bundle exec jekyll serve --drafts --unpublished --future --trace
 
 clean:
 	rm -rf build

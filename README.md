@@ -68,11 +68,9 @@ Once everything is good and ready to go live -
 
 
 ## For local development
-`bundle update`
+The first time on a new machine, run `make install`.
 
-`bundle install`
-
-`bundle exec jekyll serve --drafts --unpublished --future --trace`
+Then run `make serve`.
 
 ## Open admin dashboard
 Local dashboard: http://localhost:4000/admin

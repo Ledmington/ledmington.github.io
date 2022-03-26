@@ -29,3 +29,5 @@ Add DDML to projects in about
 Add multi-language support with this https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
 
 Add more categories to single post
+
+Stick the "powered by ..." message to the bottom
