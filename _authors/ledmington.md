@@ -1,9 +1,9 @@
 ---
 name: Filippo Barbari
 username: ledmington
-bio: "Hi I am Filippo Barbari, developer and student."
+bio: "Developer and student."
 site: http://ledmington.github.io
-avatar: /assets/img/authors/ledmington.jpeg
+avatar: ledmington.jpeg
 email: filippo.barbari@gmail.com
 social:
     - title: "github"
