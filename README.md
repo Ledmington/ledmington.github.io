@@ -96,3 +96,6 @@ The thumbnail of the post must be in the `/assets/img` directory and the `thumbn
 
 ## Modify skills
 For now, skills are hard-coded into the `_includes/author_skills.html` file. [Here](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#example-1-skills-and-abilities) explains how to have some more dynamic skills.
+
+## More Jekyll themes
+[Here](http://jekyllthemes.org/)
