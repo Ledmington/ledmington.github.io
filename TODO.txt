@@ -17,8 +17,6 @@ Change LinkedIn link
 
 Add little "cv" icon before "Curriculum Vitae" in About
 
-Fix search
-
 Add DDML to projects in about
 
 Add multi-language support with this https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
