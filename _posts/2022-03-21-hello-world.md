@@ -11,4 +11,4 @@ permalink: /blog/hello-world/
 usemathjax: true
 ---
 
-TODO: write this post
+Hi everyone! This is my first post so i guess it's like an "Hello World".
