@@ -60,7 +60,7 @@ Your debugger doesn't see the bug?
 
 When you add some `printf`s around, the bug disappears?
 
-Worry not, developer, because **git bisect** is here to help you!
+Fear not, developer, because **git bisect** is here to help you!
 
 First of all, some theory. If you found a bug in your branch, it means that sometime in the past a commit introduced it in your code. Now imagine to replace each commit in your branch that hasn't the bug with a `0` and each bugged commit with a `1`. Now you have a very long list of `0`s followed by a (hopefully not) very long list of `1`s, so it is sorted.
 
