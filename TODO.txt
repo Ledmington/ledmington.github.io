@@ -26,3 +26,5 @@ Add more categories to single post
 Stick the "powered by ..." message to the bottom
 
 Add image to posts in Home
+
+Fix the CSS in Home: apparently missing right margin when in split-screen
