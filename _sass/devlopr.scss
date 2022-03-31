@@ -190,9 +190,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
 
-a{
+a {
     color: var(--link-color) !important;
 }
+
 /* Navigation Header */
 header {
     background-color: var(--main-background-color);
@@ -211,6 +212,7 @@ header {
     margin-right: 0px !important;
     margin-top: 10px !important;
 }
+
 .card {
     margin: 20px !important;
     padding: 20px !important;
@@ -231,9 +233,11 @@ header {
 .navbar-dark .navbar-brand {
     color: #ff7601 !important;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
 }
+
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;
 }
@@ -261,6 +265,7 @@ header {
 .author_bio{
     margin-top:5px;
 }
+
 .card-title {
     margin-bottom: .75rem !important;
 }
@@ -419,83 +424,6 @@ header {
     margin-left: -35px;
 }
 
-.snipcart-modal__container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    min-height: 100vh;
-    z-index: 10;
-    margin-top: 60px !important;
-    padding: 5px !important ;
-    background-color: var(--main-background-color) !important;
-}
-
-.snipcart-cart__content {
-    margin: 0 auto;
-    background-color: var(--main-background-color) !important;
-}
-
-.snipcart-modal {
-    position: relative;
-    margin: 25px auto !important;
-    max-width: 100%;
-    background-color: var(--main-background-color) !important;
-    min-height: 100vh;
-    height: 100%;
-}
-
-.snipcart-item-line {
-    background-color:var(--main-background-color) !important;
-    color: var(--bold-color) !important;
-    margin-bottom: 24px;
-    padding: 32px;
-    -webkit-box-shadow: 0 8px 24px rgba(231,235,237,.6);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
-}
-.snipcart-item-quantity {
-    color: var(--bold-color) !important;
-    margin-top: -2px;
-}
-.snipcart-cart-summary-fees {
-    color: var(--bold-color) !important;
-}
-
-.snipcart-cart-header {
-    background-color: var(--main-background-color) !important;
-    color: var(--bold-color) !important;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.snipcart-modal__close-title {
-    color: coral !important;
-}
-.snipcart__button--icon {
-    border: 0px solid #f0f5f6 !important;
-}
-#snipcart-floating-cart{
-    margin-top: 90px !important;
-}
-
-.snipcart-cart-button--secondary {
-    color: --var(--bold-color) !important;
-    background-color: var(--button-background-color) !important;
-    padding: 16px;
-    text-transform: none;
-}
-.snipcart-payment-methods__title {
-    background-color: black !important;
-}
-
 /* jumbotron */
 .jumbotron {
     background-color: var(--main-background-color) !important;
@@ -504,12 +432,14 @@ header {
     background-size: cover;
     background-position: center;
 }
+
 /* pagination */
 .pagination-link{
     padding:15px;
     background-color: var(--card-background-color);
     text-decoration: none;
 }
+
 .pagination-link a:hover{
     background-color: var(--main-background-color);
     text-decoration: none;
@@ -523,7 +453,7 @@ header {
     margin-left: 20px !important;
 }
 
-.jumbotron-heading{
+.jumbotron-heading {
     color: #111;
     font-size: 35px;
 }
@@ -542,11 +472,6 @@ header {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: coral;
-}
-
-.product{
-    width: 29%;
-    float:left;
 }
 
 /* Share page buttons */
@@ -693,7 +618,7 @@ header {
         margin-inline-start: 45px;
     }
     #navigation{
-        margin-top:50px;
+        margin-top: 50px;
     }
     .nav-link {
         font-size: 15px !important;
@@ -705,17 +630,16 @@ header {
 
 #author_projects {
     .project-img {
-        width: 300px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
     #project-card{
-        margin-top:30px;
+        margin-top: 30px;
     }
     .project-link{
         color: var(--link-color);
     }
 }
-
 
 .company-logo {
     width: 100px;
@@ -739,41 +663,6 @@ header {
 .blog-post:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
-
-#newsletter_footer {
-    background-color: var(--newsletter-background-color);
-    color: var(--main-text-color);
-    text-align: center;
-    margin-top: 100px;
-}
-
-    #mc-embedded-subscribe-form {
-        width: 100%;
-        padding: 50px;
-    }
-
-    #mc_embed_signup_scroll_footer {
-        margin-left: 25%;
-        margin-right: 25%;
-        text-align: center;
-        font-size: 22px;
-    }
-
-    #mce-EMAIL_footer {
-        width: 400px;
-        padding: 14px;
-        color: #111;
-        border-color: #111;
-        background: bisque;
-        text-align: center;
-        text-transform: capitalize;
-        border: 1px solid #fff;
-    }
-
-    #mc-embedded-subscribe_footer {
-        margin-top: 30px;
-    }
 
 footer {
     width: 100%;
@@ -847,10 +736,6 @@ footer {
                 margin: 20px !important;
             }
 
-            .product{
-                width: auto;
-                float:left;
-            }
             #topNav {
                 padding-left:  0px;
                 padding-right: 0px;
@@ -894,11 +779,6 @@ footer {
            }
     }
 
-      #mc-embedded-subscribe-form {
-          width: 100%;
-          padding: 50px;
-      }
-
       #mc_embed_signup_scroll_footer {
           margin-left: 5%;
           margin-right: 5%;
@@ -916,20 +796,12 @@ footer {
           border: 1px solid #fff;
       }
 
-      #mc-embedded-subscribe_footer {
-          margin-top: 30px;
-      }
-
       .blog-post {
           width: 100%;
           height: auto;
           margin: 20px !important;
       }
 
-      .product{
-          width: auto;
-          float:left;
-      }
       #topNav {
           padding-left:  0px;
           padding-right: 0px;
@@ -982,11 +854,6 @@ footer {
             padding-right: 0px;
         }
 
-          #mc-embedded-subscribe-form {
-              width: 100%;
-              padding: 50px;
-          }
-
           #mc_embed_signup_scroll_footer {
               margin-left: 5%;
               margin-right: 5%;
@@ -1004,21 +871,11 @@ footer {
               border: 1px solid #fff;
           }
 
-          #mc-embedded-subscribe_footer {
-              margin-top: 30px;
-          }
-
           .blog-post {
                 width: 100%;
                 height: auto;
                 margin: 20px !important;
             }
-
-            .product{
-                width: auto;
-                float:left;
-            }
-
  }
 
  /* Github Follow Button */
