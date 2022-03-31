@@ -26,7 +26,7 @@ opens the pdf of the documentation of the given package.
 
 I find it absolutely wonderful and it already helped me many times. It comes with a normal distribution, simple syntax and gets the job done fast. What else can you ask for?
 
-Note: AFAIK it only looks for a directory with the name of the given package and opens the pdf inside that folder. Unfortunately, it doesn't compile the documentation (that could be written in LaTeX) with a lazy style, adn maybe that's the reason why the TeXlive distro weighs around 4 GBs.
+Note: AFAIK it only looks for a directory with the name of the given package and opens the pdf inside that folder. Unfortunately, it doesn't compile the documentation (that could be written in LaTeX) with a lazy style, and maybe that's the reason why the TeXlive distro weighs around 4 GBs.
 
 # Visual Studio Code Web mode
 This section's title is a spoiler. I actually don't know how this thing is called but I'll stick with this name. Maybe you don't know about this and can discover it yourself by clicking [here](https://vscode.dev).

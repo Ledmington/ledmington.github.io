@@ -28,7 +28,7 @@ The main topics of this blog:
  - my thoughts about everything, because this is my website
 
 ## Some trivia about me
-I am a backend type of guy. The unly UIs I like are the CLIs and the ones with lots of configurations.
+I am a backend type of guy. The only UIs I like are the CLIs and the ones with lots of configurations.
 
 I prefer and use tabs. Because there's no reason other than "reducing file size" to use spaces.
 
