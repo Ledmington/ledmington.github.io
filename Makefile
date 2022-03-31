@@ -16,7 +16,7 @@ install:
 	bundle install
 
 serve:
-	bundle exec jekyll serve --trace --incremental --watch --livereload
+	bundle exec jekyll serve --trace --incremental --watch
 
 clean:
 	rm -rf build

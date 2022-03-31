@@ -55,7 +55,7 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: cuda.jpg
+              - project_thumbnail: cuda.png
                 project_title: CUDA implementation of the Bellman-Ford algorithm
                 project_description: Bachelor thesis
                 project_url: https://github.com/Ledmington/bellman-ford-cuda
