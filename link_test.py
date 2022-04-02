@@ -2,8 +2,12 @@ import os
 import re
 import sys
 import requests
+from termcolor import colored
 
 url_regex = r"<a\s+?(?:[\w\-\"\=]+\s+?)?href=\"?((?:https?:\/\/)?(?:[\w\d.:\/]+?))\"?\s*?>"
+
+def print_broken_link(link, page, error_code):
+	print("Link", colored('\"'+link+'\"', 'blue'), "in file", colored('\"'+page+'\"', 'blue'), "received code", colored(str(error_code), 'red'))
 
 def dfs(file_name, files=[]):
 	if os.path.isdir(file_name):
@@ -19,7 +23,7 @@ def check_url(url, file):
 	c = res.status_code
 
 	if not c == 200:
-		print("Link \""+url+"\" in file \""+file+"\" received code "+str(c))
+		print_broken_link(url, file, c)
 		return 1
 	else:
 		return 0
@@ -46,7 +50,7 @@ def main():
 		broken_links_found += r
 
 	if broken_links_found > 0:
-		print("\n", broken_links_found, "broken links found")
+		print("\n", colored(broken_links_found, 'red'), "broken links found")
 		sys.exit(-1)
 	else:
 		sys.exit(0)
