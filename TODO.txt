@@ -26,3 +26,7 @@ Stick the "powered by ..." message to the bottom
 Fix the /blog/categories/* files/pages and maybe add a script to create a new category
 
 Add "make test" to a ci script that runs before the deployment
+
+Create a test that tries by bruteforce all possible pages and ensures that only a certain set are reachable/visible.
+
+Maybe increase the contrast of colors in home page?
