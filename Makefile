@@ -12,7 +12,6 @@ down:
 	${DC} down
 
 install:
-	bundle update
 	bundle install
 
 serve:
