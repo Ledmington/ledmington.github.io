@@ -82,15 +82,16 @@ Actual remote dashboard: https://ledmington.github.io/admin and then login via G
 ## Add a post
 [Jekyll docs](https://jekyllrb.com/docs/posts/)
 
-For helpful Markdown tricks, check the `styleguide.md` file.
+For helpful Markdown tricks, check the `old/posts/styleguide.md` file.
 
-For post examples, check the `old_posts` directory.
+For post examples, check the `old/posts` directory.
 
 A post's filename must (apparently) follow the convention `YYYY-MM-DD-name-of-post.md`.
 
 The thumbnail of the post must be in the `/assets/img` directory and the `thumbnail` tag must be the complete path to the image.
 
 ## Add an author
+Check the template inside the `old/authors` folder.
 
 ## Add a category
 

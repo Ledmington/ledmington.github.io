@@ -15,8 +15,6 @@ Cercare altri temi per jekyll e capire come impostarli
 
 Change LinkedIn link
 
-Add little "cv" icon before "Curriculum Vitae" in About
-
 Add DDML to projects in about
 
 Add multi-language support with this https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
@@ -25,6 +23,6 @@ Add more categories to single post
 
 Stick the "powered by ..." message to the bottom
 
-Add image to posts in Home
-
 Fix the CSS in Home: apparently missing right margin when in split-screen
+
+Fix the /blog/categories/* files/pages and maybe add a script to create a new category
