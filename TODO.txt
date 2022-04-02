@@ -26,3 +26,5 @@ Stick the "powered by ..." message to the bottom
 Fix the CSS in Home: apparently missing right margin when in split-screen
 
 Fix the /blog/categories/* files/pages and maybe add a script to create a new category
+
+Add "make test" to a ci script that runs before the deployment
