@@ -29,4 +29,8 @@ Add "make test" to a ci script that runs before the deployment
 
 Create a test that tries by bruteforce all possible pages and ensures that only a certain set are reachable/visible.
 
+Create a test that finds what files in the root folder are not used to build the site.
+
+Create a test that finds what portions of CSS are not used (is it possible?)
+
 Maybe increase the contrast of colors in home page?
