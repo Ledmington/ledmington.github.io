@@ -18,6 +18,9 @@ install:
 serve:
 	bundle exec jekyll serve --trace --incremental --watch
 
+test:
+	python3 link_test.py
+
 clean:
 	rm -rf build
 	rm -rf .jekyll-cache
