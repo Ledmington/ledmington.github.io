@@ -1,0 +1,23 @@
+name: Test Jekyll Website
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: serve
+      run: make serve &
+    
+    - name: test
+      run: make test
+    
+    - name: close serve
+      run: kill %1
