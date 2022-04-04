@@ -5,8 +5,6 @@ Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del pro
 Rimuovere immagini inutili da assets/img/
 Rimuovere immagini inutili da assets/img/posts
 
-Modificare il README mettendo le procedure per modificare il sito (o mettere i puntatori ai file in cui si spiega)
-
 Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
@@ -21,8 +19,6 @@ Stick the "powered by ..." message to the bottom
 
 Fix the /blog/categories/* files/pages and maybe add a script to create a new category
 
-Add "make test" to a ci script that runs before the deployment
-
 Create a test that tries by bruteforce all possible pages and ensures that only a certain set are reachable/visible.
 
 Create a test that finds what files in the root folder are not used to build the site.
@@ -30,3 +26,5 @@ Create a test that finds what files in the root folder are not used to build the
 Create a test that finds what portions of CSS are not used (is it possible?)
 
 Maybe increase the contrast of colors in home page?
+
+Fix the thesis description sticking to nvidia logo in homepage

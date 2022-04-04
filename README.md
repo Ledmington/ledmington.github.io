@@ -57,6 +57,8 @@ Actual remote dashboard: https://ledmington.github.io/admin and then login via G
 ## Add an image
 All images are stored inside `assets/img`. Images used in posts (not thumbnails) have to be stored inside `assets/img/posts`. Authors' profile picture has to be stored inside `assets/img/authors`.
 
+If possible, try to keep an aspect ratio of 2:1 in all images to avoid weird post stretching in the `blog` page.
+
 ## Add a post
 [Jekyll docs](https://jekyllrb.com/docs/posts/)
 
@@ -67,6 +69,8 @@ For post examples, check the `old/posts` directory.
 A post's filename must (apparently) follow the convention `YYYY-MM-DD-name-of-post.md`.
 
 The thumbnail of the post must be in the `/assets/img` directory and the `thumbnail` tag must be the complete path to the image.
+
+To add a post without visualizing it, add `published: false` in the preamble.
 
 ## Add an author
 You need to create a new `<author-name>.md` file inside the `_authors` folder. Check the template inside the `old/authors` folder to know what informations to write. The profile picture must be inside the `assets/img/authors` folder. To add more information about an author (like projects, social ecc.) add him/her in the `_data/authors.yml` file. To know what to write, check the old template inside the `old/data/_authors.yml`.
