@@ -13,8 +13,6 @@ Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
 
-Change LinkedIn link
-
 Add DDML to projects in about
 
 Add multi-language support with this https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/

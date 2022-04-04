@@ -15,7 +15,7 @@ install:
 	bundle install
 
 serve:
-	bundle exec jekyll serve --trace --incremental --watch
+	bundle exec jekyll serve --trace --watch
 
 test:
 	python3 link_test.py
