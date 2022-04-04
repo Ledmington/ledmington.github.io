@@ -25,6 +25,5 @@ jobs:
     
     - name: test
       run: make test
-    
-    - name: close serve
-      run: kill %1
+      
+      # no need to kill the background process
