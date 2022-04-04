@@ -53,6 +53,7 @@ def main():
 		print("\n", colored(broken_links_found, 'red'), "broken links found")
 		sys.exit(-1)
 	else:
+		print("\n", colored(broken_links_found, 'green'), "broken links found")
 		sys.exit(0)
 
 if __name__ == "__main__":

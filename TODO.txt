@@ -1,7 +1,5 @@
 Capire come creare il container docker con il sito (per vederlo in locale) e preparare uno script (o un makefile) con le istruzioni
 
-Rimuovere gli altri autori in _authors/ (creando un template in cui si spiega cosa fare per crearne o modificarne uno)
-
 Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
 
 Rimuovere immagini inutili da assets/img/
