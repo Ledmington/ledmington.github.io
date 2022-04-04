@@ -11,7 +11,13 @@ up: build
 down:
 	${DC} down
 
+update:
+	rm requirements.txt
+	pipreqs
+	bundle update
+
 install:
+	pip install -r requirements.txt
 	bundle install
 
 serve:

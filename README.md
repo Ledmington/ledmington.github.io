@@ -46,6 +46,9 @@ The first time on a new machine, run `make install` to make bundler install all 
 
 Then run `make serve` all other times to run the server locally.
 
+#### Update dependencies
+Run `make update`.
+
 ## Open admin dashboard
 Local dashboard: http://localhost:4000/admin
 
