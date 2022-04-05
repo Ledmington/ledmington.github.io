@@ -25,6 +25,12 @@ Create a test that finds what files in the root folder are not used to build the
 
 Create a test that finds what portions of CSS are not used (is it possible?)
 
+Create a test to check that all images have an alt attribute
+
+Create a test to compute lighthouse scores on each page?
+
 Maybe increase the contrast of colors in home page?
 
 Fix the thesis description sticking to nvidia logo in homepage
+
+Disable absolute width of elements in CSS when screen is too large
