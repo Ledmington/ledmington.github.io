@@ -87,7 +87,7 @@ linkedin_username: filippo-barbari-bb2b55181
 #flickr_username: johndoe
 
 # wakatime username (coding activity)
-wakatime_username: Ledmington
+#wakatime_username: Ledmington
 
 # formspree (contact form)
 formspree_email: filippo.barbari@gmail.com
@@ -97,7 +97,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Choose what to show ( can be true or false)
+# Choose what to show (can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
