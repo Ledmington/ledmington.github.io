@@ -109,6 +109,10 @@ html[data-theme="light"] {
     padding: 0;
 }
 
+table, th, td {
+    border: 1px solid;
+}
+
 ol,
 ul {
     margin-left: 30px !important;

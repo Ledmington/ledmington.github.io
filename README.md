@@ -70,7 +70,7 @@ A post's filename must (apparently) follow the convention `YYYY-MM-DD-name-of-po
 
 The thumbnail of the post must be in the `/assets/img` directory and the `thumbnail` tag must be the complete path to the image.
 
-To add a post without visualizing it, add `published: false` in the preamble.
+To add a post without visualizing it, add `published: false` in the preamble (and make sure to run jekyll with the `--unpublished` option).
 
 ## Add an author
 You need to create a new `<author-name>.md` file inside the `_authors` folder. Check the template inside the `old/authors` folder to know what informations to write. The profile picture must be inside the `assets/img/authors` folder. To add more information about an author (like projects, social ecc.) add him/her in the `_data/authors.yml` file. To know what to write, check the old template inside the `old/data/_authors.yml`.
