@@ -57,8 +57,13 @@ author_education_details:
 author_project_details:
               - project_thumbnail: cuda.png
                 project_title: CUDA implementation of the Bellman-Ford algorithm
-                project_description: Bachelor thesis
+                project_description: Bachelor's degree thesis project.
                 project_url: https://github.com/Ledmington/bellman-ford-cuda
+                visibility: true
+              - project_thumbnail: python.png
+                project_title: Decentralized Distributed Machine Learning
+                project_description: Train machine learning models over a Peer-to-Peer network.
+                project_url: https://github.com/Ledmington/DDML
                 visibility: true
               #- project_thumbnail: hack4r.PNG
               #  project_title: Hack4r
