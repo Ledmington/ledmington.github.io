@@ -9,8 +9,6 @@ Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
 
-Add multi-language support with this https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
-
 Add more categories to single post
 
 Fix the /blog/categories/* files/pages and maybe add a script to create a new category
