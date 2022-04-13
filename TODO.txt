@@ -9,13 +9,9 @@ Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
 
-Add DDML to projects in about
-
 Add multi-language support with this https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
 
 Add more categories to single post
-
-Stick the "powered by ..." message to the bottom
 
 Fix the /blog/categories/* files/pages and maybe add a script to create a new category
 
@@ -37,3 +33,5 @@ Fix the thesis description sticking to nvidia logo in homepage
 Disable absolute width of elements in CSS when screen is too large
 
 Add benchmarking of the Trie
+
+Divide CSS into three files (mobile, pc, ultra-wide pc)

@@ -4,7 +4,9 @@ title:  "Most liked features"
 summary: "As of March 2022"
 author: ledmington
 date: '2022-03-30 23:05:00 +0000'
-category: blog
+category:
+ - features
+ - software
 thumbnail: /assets/img/features.gif
 keywords: blog, features
 permalink: /blog/most-liked-features/
