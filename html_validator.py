@@ -15,7 +15,6 @@ def dfs(file_name, files=[]):
     return files
 
 def validate_page(file):
-    print(file)
     res = requests.post(
         validator,
         data={
@@ -32,6 +31,12 @@ def validate_page(file):
         print(res)
     
     parsed = res.json()
+
+    if len(parsed["messages"]) == 0:
+        print(file, colored("OK", "green"))
+        return 0
+    else:
+        print(file)
 
     for m in parsed["messages"]:
         err_msg = colored(file, "blue") + " "
