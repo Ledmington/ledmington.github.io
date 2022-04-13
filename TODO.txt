@@ -24,6 +24,8 @@ Create a test to check that all images have an alt attribute
 
 Create a test to compute lighthouse scores on each page?
 
+Add CSS validator (https://github.com/nad2000/W3C-Validator/blob/master/w3c_validator/validator.py)
+
 Maybe increase the contrast of colors in home page?
 
 Fix the thesis description sticking to nvidia logo in homepage

@@ -25,6 +25,7 @@ serve:
 
 test:
 	python3 link_test.py
+	python3 html_validator.py
 
 clean:
 	rm -rf build
