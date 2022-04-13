@@ -9,10 +9,6 @@ Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
 
-Add more categories to single post
-
-Fix the /blog/categories/* files/pages and maybe add a script to create a new category
-
 Create a test that tries by bruteforce all possible pages and ensures that only a certain set are reachable/visible.
 
 Create a test that finds what files in the root folder are not used to build the site.
@@ -35,3 +31,5 @@ Disable absolute width of elements in CSS when screen is too large
 Add benchmarking of the Trie
 
 Divide CSS into three files (mobile, pc, ultra-wide pc)
+
+Add nice CSS to blog/categories/*

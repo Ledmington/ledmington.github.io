@@ -1,12 +1,9 @@
 /* devlopr-jekyll styling */
 
 /* variables */
-$body-typeface:'Quicksand',
-sans-serif;
+$body-typeface:'Quicksand', sans-serif;
 $nav-typeface: "Gill sans";
-$mono-typeface: Menlo,
-Monaco,
-monospace;
+$mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
 html[data-theme="dark"] {
@@ -571,7 +568,7 @@ header {
 
 /* Homepage project cards*/
 
-#project-card {
+.project-card {
     margin: 0px !important;
 }
 
