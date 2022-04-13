@@ -35,3 +35,5 @@ Maybe increase the contrast of colors in home page?
 Fix the thesis description sticking to nvidia logo in homepage
 
 Disable absolute width of elements in CSS when screen is too large
+
+Add benchmarking of the Trie
