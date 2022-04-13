@@ -76,7 +76,7 @@ To add a post without visualizing it, add `published: false` in the preamble (an
 You need to create a new `<author-name>.md` file inside the `_authors` folder. Check the template inside the `old/authors` folder to know what informations to write. The profile picture must be inside the `assets/img/authors` folder. To add more information about an author (like projects, social ecc.) add him/her in the `_data/authors.yml` file. To know what to write, check the old template inside the `old/data/_authors.yml`.
 
 ## Add a category
-TODO
+To add a category page, run `python3 add_category.py` and it will generate the right file in the right place.
 
 ## Modify skills
 For now, skills are hard-coded into the `_includes/author_skills.html` file. [Here](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#example-1-skills-and-abilities) explains how to have some more dynamic skills.
