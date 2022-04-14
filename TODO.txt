@@ -5,6 +5,8 @@ Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del pro
 Rimuovere immagini inutili da assets/img/
 Rimuovere immagini inutili da assets/img/posts
 
+Sistemare icona "CV" nella home
+
 Cercare di capire quali file sono inutili ed eliminarli
 
 Cercare altri temi per jekyll e capire come impostarli
@@ -35,3 +37,5 @@ Divide CSS into three files (mobile, pc, ultra-wide pc)
 Fix top bar on mobile
 
 Add nice CSS to blog/categories/*
+
+In Skills, maybe add little logos of languages and libraries?
