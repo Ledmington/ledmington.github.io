@@ -35,8 +35,6 @@ def validate_page(file):
     if len(parsed["messages"]) == 0:
         print(file, colored("OK", "green"))
         return 0
-    else:
-        print(file)
 
     for m in parsed["messages"]:
         err_msg = colored(file, "blue") + " "

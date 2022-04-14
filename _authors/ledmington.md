@@ -8,6 +8,6 @@ email: filippo.barbari@gmail.com
 social:
     - title: "github"
       url: "https://github.com/Ledmington"
-    #- title: "linkedin"
-    #  url: "https://www.linkedin.com/in/johndoe"
+    - title: "linkedin"
+      url: "http://linkedin.com/in/filippo-barbari-bb2b55181"
 ---
