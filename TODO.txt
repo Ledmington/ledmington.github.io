@@ -3,7 +3,6 @@ Capire come creare il container docker con il sito (per vederlo in locale) e pre
 Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
 
 Rimuovere immagini inutili da assets/img/
-Rimuovere immagini inutili da assets/img/posts
 
 Sistemare icona "CV" nella home
 
