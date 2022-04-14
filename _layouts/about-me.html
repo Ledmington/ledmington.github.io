@@ -6,7 +6,7 @@ layout: default
     <div class="col-lg-4">
       <div class="card" id="profile-card">
         <a href="/">
-          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" alt="" />
         </a>
         <h1 class="profile-name">{{ site.title }}</h1>
         <p class="profile-bio">{{ site.subtitle }}</p>
@@ -69,13 +69,13 @@ layout: default
         <br />
         {% for project in site.author_project_details %} {% if project.visibility
         == true %}
-        <div class="row" id="project-card">
+        <div class="row project-card">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="project-img" />
+            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="project-img" alt="" />
           </div>
           <div class="col-md-9">
             <h4 class="experience-title">{{ project.project_title }}</h4>
-            <h6 class="experience-info">{{ project.project_info}}</h6>
+            {% if project.project_info %}<h6 class="experience-info">{{ project.project_info }}</h6>{% endif %}
             <p class="experience-desc">{{ project.project_description }}</p>
             <p>
               <a class="project-link" href="{{project.project_url}}">{{ project.project_url}}</a>
@@ -93,7 +93,7 @@ layout: default
         %}
         <div class="row">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="company-logo" />
+            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="company-logo" alt="" />
           </div>
           <div class="col-md-9">
             <h4 class="experience-title">{{ exp.designation }}</h4>
@@ -112,7 +112,7 @@ layout: default
         == true %}
         <div class="row">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" />
+            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" alt="" />
           </div>
           <div class="col-md-9">
             <h4 class="experience-title">{{detail.college_degree }}</h4>
