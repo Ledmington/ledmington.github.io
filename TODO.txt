@@ -35,3 +35,5 @@ Disable absolute width of elements in CSS when screen is too large
 Add benchmarking of the Trie
 
 Divide CSS into three files (mobile, pc, ultra-wide pc)
+
+Fix top bar on mobile
