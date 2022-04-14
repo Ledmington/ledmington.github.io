@@ -16,9 +16,6 @@ Create a test that finds what files in the root folder are not used to build the
 
 Create a test that finds what portions of CSS are not used (is it possible?)
 
-Create a test that checks the code with HTML v1.0 (?) to improve the SEO
-Create a test to check that all images have an alt attribute
-
 Create a test to compute lighthouse scores on each page?
 
 Add CSS validator (https://github.com/nad2000/W3C-Validator/blob/master/w3c_validator/validator.py)

@@ -7,7 +7,7 @@ date: '2022-04-13 09:13:00 +0000'
 category:
  - parallel
  - file
-thumbnail: /assets/img/trie.png
+thumbnail: /assets/img/file-parallel.png
 keywords: parallel, file
 permalink: /blog/parallel-read-a-file/
 usemathjax: true
@@ -18,5 +18,6 @@ published: false
 
 # The solutions
 ## Reading serially
-## Partition (logically) the file
+## Partition (logically) the file with pointers
+## Read different copies at different locations
 ## Split in physical parts
