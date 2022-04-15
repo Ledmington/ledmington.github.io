@@ -4,7 +4,8 @@ Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del pro
 
 Rimuovere immagini inutili da assets/img/
 
-Sistemare icona "CV" nella home
+Sistemare icona "CV" nella home (centrata verticalmente rispetto al suo h6)
+Add light-mode variant of the CV icon in About
 
 Cercare di capire quali file sono inutili ed eliminarli
 
