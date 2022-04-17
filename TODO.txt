@@ -32,6 +32,7 @@ Add benchmarking of the Trie
 Divide CSS into three files (mobile, pc, ultra-wide pc)
 
 Fix top bar on mobile
+Try to use the two svg icons inside assets/ to replace the menu icon on mobile
 
 Add nice CSS to blog/categories/*
 
