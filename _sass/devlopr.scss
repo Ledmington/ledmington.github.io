@@ -204,12 +204,19 @@ pre {
 }
 
 blockquote {
-    margin: 2rem 1rem 1rem;
+    margin: 2rem 1rem 1rem auto;
     padding: 3px;
     background: var(--main-background-color) !important;
     border: 1px solid;
     color: var(--bold-color);
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: italic;
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 /* Scrollbar */
