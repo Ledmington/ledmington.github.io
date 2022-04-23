@@ -45,27 +45,28 @@ def main():
     build_dir = "./build"
     html_files = dfs(build_dir)
 
-    urls_to_check = []
+    tot_broken_links = 0
     for file in html_files:
         with open(file) as f:
             urls = re.findall(url_regex, f.read())
+        
+        curr_broken_links = 0
         for url in urls:
-            urls_to_check.append([url, file])
+            # add "http://localhost:4000" to each link that starts with "/"
+            if url.startswith("/"):
+                url = "http://localhost:4000" + url
+            curr_broken_links += check_url(url, file)
+        
+        if curr_broken_links == 0:
+            print(file, colored("OK", 'green'))
+        
+        tot_broken_links += curr_broken_links
 
-    broken_links_found = 0
-
-    # add "http://localhost:4000" to each link that starts with "/"
-    for t in urls_to_check:
-        if t[0].startswith("/"):
-            t[0] = "http://localhost:4000" + t[0]
-        r = check_url(t[0], t[1])
-        broken_links_found += r
-
-    if broken_links_found > 0:
-        print("\n", colored(broken_links_found, "red"), "broken links found")
+    if tot_broken_links > 0:
+        print("\n", colored(tot_broken_links, "red"), "broken links found")
         sys.exit(-1)
     else:
-        print("\n", colored(broken_links_found, "green"), "broken links found")
+        print("\n", colored(tot_broken_links, "green"), "broken links found")
         sys.exit(0)
 
 
