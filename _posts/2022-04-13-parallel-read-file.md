@@ -15,6 +15,10 @@ published: false
 ---
 
 # The problem
+The problem is as simple as this question: **Is it possible to read a file in parallel?**
+While it may seem really trivial, one you start thinking about the way a hard drive (or an SSD) works a lot of doubts start to rise.
+
+For simplicity, we generate a file with random integers and we want to find the minimum of them.
 
 # The solutions
 ## Reading serially
