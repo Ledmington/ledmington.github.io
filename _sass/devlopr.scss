@@ -606,11 +606,6 @@ footer {
         }
     }
 
-    #mc-embedded-subscribe-form {
-        width: 100%;
-        padding: 50px;
-    }
-
     #mc_embed_signup_scroll_footer {
         margin-left: 5%;
         margin-right: 5%;
@@ -626,10 +621,6 @@ footer {
         text-align: center;
         text-transform: capitalize;
         border: 1px solid #fff;
-    }
-
-    #mc-embedded-subscribe_footer {
-        margin-top: 30px;
     }
 
     .blog-post {
@@ -840,8 +831,6 @@ footer {
     }
 }
 
-
-
 .switch:checked:after {
     animation: on .7s forwards cubic-bezier(.8, .5, .2, 1.4);
     box-shadow: inset -5px -5px 4px rgba(53, 53, 53, 0.3);
@@ -863,7 +852,6 @@ footer {
         width: 46px;
     }
 }
-
 
 .switch:checked:before {
     content: '';
@@ -955,6 +943,7 @@ footer {
         filter: blur(0px);
     }
 }
+
 
 /* Syntax Hightlighter */
 .highlight pre {
