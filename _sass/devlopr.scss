@@ -1,7 +1,7 @@
 /* devlopr-jekyll styling */
 
 /* variables */
-$body-typeface:'Quicksand', sans-serif;
+$body-typeface: 'Quicksand', sans-serif;
 $nav-typeface: "Gill sans";
 $mono-typeface: Menlo, Monaco, monospace;
 /*$text-width: 650px;*/
@@ -212,6 +212,7 @@ blockquote {
     text-align: center;
     vertical-align: middle;
     font-style: italic;
+
     p {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -329,14 +330,6 @@ header {
 
 .card-title {
     margin-bottom: .75rem !important;
-}
-
-.breadcrumb {
-    margin-top: 45px !important;
-    /* margin-right: 20px !important; */
-    margin-bottom: 20px !important;
-    font-size: 15px;
-    background-color: var(--card-background-color) !important;
 }
 
 #blog-post-container {
