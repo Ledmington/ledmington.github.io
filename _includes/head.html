@@ -7,9 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.summary %}
-    <meta name="description" content="{{ page.summary | escape }}- {% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description"
+    content="{{ page.summary | escape }}- {% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
-   <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
+  <meta name="keywords"
+    content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}" />
 
   <meta content="{{ site.share.fb_appid }}" property="fb:app_id" />
   <meta content="{{ site.title }}" property="og:site_name" />
@@ -28,10 +30,7 @@
   {% endif %} {% if page.url %}
   <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
   {% endif %} {% if page.date %}
-  <meta
-    content="{{ page.date | date_to_xmlschema }}"
-    property="article:published_time"
-  />
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time" />
   <meta content="{{ site.url }}/about/" property="article:author" />
   {% endif %} {% if page.thumbnail %}
   <meta content="{{ site.url }}{{ page.thumbnail }}" property="og:image" />
@@ -45,55 +44,47 @@
   <link rel="icon" type="image/x-icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.ico">
   <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
   <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/custom-style.css" /> -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-  />
-  <link
-    rel="stylesheet"
-    href="{{site.url}}{{site.baseurl}}/assets/bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css"
-  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="{{site.url}}{{site.baseurl}}/assets/bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" />
   <!-- Fonts-->
-  <link
-    href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
   <script>
-      var base_url = '{{ site.url}}{{site.baseurl}}' ;
-   </script>
+    var base_url = '{{ site.url}}{{site.baseurl}}';
+  </script>
 
   <!-- Jquery -->
-  <script async defer
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
+  <script async defer src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
-    crossorigin="anonymous"
-  ></script>
-  <script async defer src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
-  <script async defer src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script async defer src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-  <script async defer src="{{site.url}}{{site.baseurl}}/assets/bower_components/ghosthunter/dist/jquery.ghostHunter.min.js"></script>
+    crossorigin="anonymous"></script>
+  <script async defer
+    src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
+  <script async defer
+    src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script async defer
+    src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+  <script async defer
+    src="{{site.url}}{{site.baseurl}}/assets/bower_components/ghosthunter/dist/jquery.ghostHunter.min.js"></script>
   <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js"></script>
-  <script async defer src="{{site.url}}{{site.baseurl}}/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script async defer
+    src="{{site.url}}{{site.baseurl}}/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script async defer src="{{site.url}}{{site.baseurl}}/assets/bower_components/nanobar/nanobar.min.js"></script>
   <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 
- <!-- for Mathjax support -->
+  <!-- for Mathjax support -->
   {% if page.usemathjax %}
-   <script async defer type="text/x-mathjax-config">
+  <script async defer type="text/x-mathjax-config">
       MathJax.Hub.Config({
       TeX: { equationNumbers: { autoNumber: "AMS" } }
       });
    </script>
-   <script async defer src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script async defer src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 
   <!-- Github Button -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script async defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
 </head>
