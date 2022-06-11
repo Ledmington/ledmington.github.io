@@ -6,22 +6,25 @@ layout: compress
 <html lang="en">
 {%- include head.html -%}
 <body>
-        {%- include header.html -%}
+    {%- include header.html -%}
+    <center>
         <div class="container-fluid">
             {{ content }}
         </div>
-        {%- include footer.html -%}
-     <script>
-            var options = {
-                classname: 'my-class',
-                id: 'my-id'
-            };
-            var nanobar = new Nanobar( options );
-            nanobar.go( 30 );
-            nanobar.go( 76 );
-            nanobar.go(100);
-        </script>
+    </center>
+    {%- include footer.html -%}
+    <script>
+        var options = {
+            classname: 'my-class',
+            id: 'my-id'
+        };
+        var nanobar = new Nanobar(options);
+        nanobar.go(30);
+        nanobar.go(76);
+        nanobar.go(100);
+    </script>
 
-   <script src="{{site.url}}{{site.baseurl}}/assets/js/mode-switcher.js"></script>
+    <script src="{{site.url}}{{site.baseurl}}/assets/js/mode-switcher.js"></script>
 </body>
+
 </html>
