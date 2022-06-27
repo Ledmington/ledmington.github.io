@@ -35,5 +35,7 @@ Fix top bar on mobile
 Try to use the two svg icons inside assets/ to replace the menu icon on mobile
 
 Add nice CSS to blog/categories/*
+Add little glowing effect to classic underlined blue links: maybe color them orange and give a little glow on hover
+Maybe little glow effect also on buttons in top bar
 
 In Skills, maybe add little logos of languages and libraries?

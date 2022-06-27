@@ -39,7 +39,8 @@ layout: default
         {% endif %} {% if site.author_website_url %}
         <h6><i class="fas fa-link"></i> {{ site.author_website_url }}</h6>
         {% endif %} {% if site.author_cv %}
-        <h6><object data="{{site.url}}{{site.baseurl}}/assets/img/cv.svg" width="25" height="18"></object><a href="{{ site.author_cv }}">Curriculum Vitae</a></h6>
+        <h6><object data="{{site.url}}{{site.baseurl}}/assets/img/cv.svg" width="25" height="18"></object><a
+            href="{{ site.author_cv }}">Curriculum Vitae</a></h6>
         {% endif %}
       </div>
 
@@ -63,7 +64,8 @@ layout: default
         == true %}
         <div class="row project-card">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="project-img" alt="" />
+            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="project-img"
+              alt="" />
           </div>
           <div class="col-md-9">
             <h4 class="experience-title">{{ project.project_title }}</h4>
