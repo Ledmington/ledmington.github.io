@@ -15,6 +15,8 @@ published: false
 ---
 
 # A bit of theory
-What is information? Can we measure it?
+> What is information? Can we measure it?
+A pretty good explanation can be found on [Wikipedia](https://en.wikipedia.org/wiki/Information_theory#Quantities_of_information).
+
 When does an information become redundant?
 What do we mean with the word "compressed"?
