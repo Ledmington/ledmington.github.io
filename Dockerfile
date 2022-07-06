@@ -1,15 +1,21 @@
-FROM jekyll/jekyll:3.8.6 as build
+FROM jekyll/jekyll:4.2.2 as build
+
+RUN gem install bundler
+RUN chown jekyll:jekyll -R /usr/gem
 
 WORKDIR /srv/jekyll
 
-ADD ./Gemfile /srv/jekyll
+COPY ./Gemfile .
+COPY ./Gemfile.lock .
 
-RUN gem install bundler
+RUN bundle install
+
+
 #RUN rm -rf Gemfile.lock
 #RUN chmod -R 777 ${PWD}
-RUN chown jekyll:jekyll -R /usr/gem
-RUN bundle update
-RUN bundle install
+
+#RUN bundle update
+
 
     # jekyll build && \
     # jekyll serve --livereload --drafts --trace

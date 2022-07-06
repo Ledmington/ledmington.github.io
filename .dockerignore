@@ -1,0 +1,10 @@
+*
+!_*
+!assets/
+!blog/
+!categories/
+!index.html
+!Gemfile
+!Gemfile.lock
+!config.ru
+!*.md

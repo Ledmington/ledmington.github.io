@@ -1,12 +1,9 @@
-DC=docker-compose -f docker-compose-dev.yml
+DC=docker-compose -f docker-compose-prod.yml
 
 .PHONY: serve
 
-build:
-	${DC} build
-
-up: build
-	${DC} up --remove-orphans
+up:
+	${DC} up --build
 
 down:
 	${DC} down
