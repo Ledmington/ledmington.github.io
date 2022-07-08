@@ -18,7 +18,7 @@ install:
 	bundle install
 
 serve:
-	bundle exec jekyll serve --trace --watch --unpublished --draft
+	bundle exec jekyll serve --trace --livereload --unpublished --draft
 
 test:
 	python3 link_test.py
