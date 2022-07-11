@@ -4,7 +4,10 @@ title:  "PRACE Summer School of HPC Blog #8"
 summary: "Final report"
 author: ledmington
 date: '2022-08-27 12:35:00 +0000'
-category: blog
+category:
+ - blog
+ - prace
+ - hpc
 thumbnail: /assets/img/sohpc-logo.png
 keywords: blog, prace, hpc
 permalink: /blog/summer-school-week-8/
