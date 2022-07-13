@@ -37,39 +37,51 @@ typewrite-text: Developer and student
 
 # Experiences
 author_work_experiences:
-            - company_name: University of Bologna
-              company_logo: unibo_logo.jpg
-              company_url: https://www.unibo.it/it
-              designation: Tutor
-              description: Tutor of the Algorithms and Data Structures course
-              visibility: true
+  - company_name: University of Luxembourg
+    company_logo: sohpc-logo.png
+    company_url: https://summerofhpc.prace-ri.eu
+    designation: Summer School of HPC Internship
+    description: CUDA implementation of the <a href="https://github.com/Ledmington/cuRSB">LibRSB</a> library
+    visibility: true
+  - company_name: University of Bologna
+    company_logo: unibo_logo.jpg
+    company_url: https://www.unibo.it/it
+    designation: Tutor
+    description: Tutor of the Algorithms and Data Structures course
+    visibility: true
 
 # Education
 author_education_details:
-              - college_logo: unibo_logo.jpg
-                college_name: University of Bologna
-                college_url: https://www.unibo.it/it
-                college_degree: Computer Science and Engineering
-                description: Bachelor's degree
-                visibility: true
+  - college_logo: unibo_logo.jpg
+    college_name: University of Bologna
+    college_url: https://www.unibo.it/it
+    college_degree: Master's degree
+    description: Computer Science and Engineering
+    visibility: true
+  - college_logo: unibo_logo.jpg
+    college_name: University of Bologna
+    college_url: https://www.unibo.it/it
+    college_degree: Bachelor's degree
+    description: Computer Science and Engineering
+    visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: cuda.png
-                project_title: CUDA implementation of the Bellman-Ford algorithm
-                project_description: Bachelor's degree thesis project.
-                project_url: https://github.com/Ledmington/bellman-ford-cuda
-                visibility: true
-              - project_thumbnail: python.png
-                project_title: Decentralized Distributed Machine Learning
-                project_description: Train machine learning models over a Peer-to-Peer network.
-                project_url: https://github.com/Ledmington/DDML
-                visibility: true
-              #- project_thumbnail: hack4r.PNG
-              #  project_title: Hack4r
-              #  project_description: A Platform built for Hackers and Penetration Testers
-              #  project_url: https://hack4r.com
-              #  visibility: true
+  - project_thumbnail: cuda.png
+    project_title: CUDA implementation of the Bellman-Ford algorithm
+    project_description: Bachelor's degree thesis project.
+    project_url: https://github.com/Ledmington/bellman-ford-cuda
+    visibility: true
+  - project_thumbnail: python.png
+    project_title: Decentralized Distributed Machine Learning
+    project_description: Train machine learning models over a Peer-to-Peer network.
+    project_url: https://github.com/Ledmington/DDML
+    visibility: true
+  #- project_thumbnail: hack4r.PNG
+  #  project_title: Hack4r
+  #  project_description: A Platform built for Hackers and Penetration Testers
+  #  project_url: https://hack4r.com
+  #  visibility: true
 
 external_links:
   - name: Development

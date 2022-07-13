@@ -528,24 +528,32 @@ header {
 
 }
 
-#author_projects {
-    .project-img {
-        width: 100px;
-        height: 100px;
-    }
+.author_projects {
+    .project-card {
+        .card-img-container {
+            max-width: 30%;
+            display: inline-block;
+            margin-right: 20px;
 
-    #project-card {
-        margin-top: 30px;
+            .card-img {
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .card-details {
+            max-width: 70%;
+            display: inline-block;
+        }
     }
 
     .project-link {
         color: var(--link-color);
     }
-}
-
-.company-logo {
-    width: 100px;
-    height: 100px;
 }
 
 .author-profile-img {
