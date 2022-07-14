@@ -1,123 +1,121 @@
 ---
 layout: default
 ---
-<div class="col-lg-12">
-  <div class="row">
-    <div class="col-lg-4">
-      <div class="card" id="profile-card">
-        <a href="/">
-          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" alt="" />
+<div> <!-- is this parent div useful? -->
+  <div class="author-info">
+    <div class="card" id="profile-card">
+      <a href="/">
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" alt="" />
+      </a>
+      <h1 class="profile-name">{{ site.title }}</h1>
+      <p class="profile-bio">{{ site.subtitle }}</p>
+      {% if site.github_username %} {%- include github_follow_button.html -%} {% endif %}
+
+      <p class="profile-links">
+        {% if site.facebook_username %}
+        <a class="social-link" href="http://facebook.com/{{ site.facebook_username }}">
+          <i class="fab fa-facebook-f"></i>
         </a>
-        <h1 class="profile-name">{{ site.title }}</h1>
-        <p class="profile-bio">{{ site.subtitle }}</p>
-        {% if site.github_username %} {%- include github_follow_button.html -%} {% endif %}
-
-        <p class="profile-links">
-          {% if site.facebook_username %}
-          <a class="social-link" href="http://facebook.com/{{ site.facebook_username }}">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          {% endif %} {% if site.instagram_username %}
-          <a class="social-link" href="http://instagram.com/{{ site.instagram_username }}">
-            <i class="fab fa-instagram"></i>
-          </a>
-          {% endif %} {% if site.github_username %}
-          <a class="social-link" href="http://github.com/{{ site.github_username }}">
-            <i class="fab fa-github"></i>
-          </a>
-          {% endif %} {% if site.linkedin_username %}
-          <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          {% endif %}
-        </p>
-
-        {% if site.author_location %}
-        <h6><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
-        {% endif %} {% if site.author_email %}
-        <h6><i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
-        {% endif %} {% if site.author_website_url %}
-        <h6><i class="fas fa-link"></i> {{ site.author_website_url }}</h6>
-        {% endif %} {% if site.author_cv %}
-        <h6><object data="{{site.url}}{{site.baseurl}}/assets/img/cv.svg" width="25" height="18"></object><a
-            href="{{ site.author_cv }}">Curriculum Vitae</a></h6>
+        {% endif %} {% if site.instagram_username %}
+        <a class="social-link" href="http://instagram.com/{{ site.instagram_username }}">
+          <i class="fab fa-instagram"></i>
+        </a>
+        {% endif %} {% if site.github_username %}
+        <a class="social-link" href="http://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+        {% endif %} {% if site.linkedin_username %}
+        <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
         {% endif %}
-      </div>
+      </p>
 
-      <div class="card">
-        <h1>Skills</h1>
-
-        {%- include author_skills.html -%}
-      </div>
-    </div>
-    <div class="col-lg-8">
-      {% if site.author_bio %}
-      <div class="card">
-        <h1 class="card-title">About</h1>
-        <p>{{ site.author_bio }}</p>
-      </div>
-      {% endif %} {% if site.show_author_project_details == true %}
-      <div class="card author_projects">
-        <h1 class="card-title">Projects</h1>
-        <br />
-        {% for project in site.author_project_details %} {% if project.visibility
-        == true %}
-        <div class="project-card">
-          <div class="card-img-container">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="card-img"
-              alt="" />
-          </div>
-          <div class="card-details">
-            <h4 class="experience-title">{{ project.project_title }}</h4>
-            {% if project.project_info %}<h6 class="experience-info">{{ project.project_info }}</h6>{% endif %}
-            <p class="experience-desc">{{ project.project_description }}</p>
-            <p>
-              <a class="project-link" href="{{project.project_url}}">{{ project.project_url}}</a>
-            </p>
-          </div>
-        </div>
-        <br />
-        {% endif %} {% endfor %}
-      </div>
-      {% endif %} {% if site.show_author_work_experiences == true %}
-      <div class="card author_projects">
-        <h1 class="card-title">Work Experience</h1>
-        <br />
-        {% for exp in site.author_work_experiences %} {% if exp.visibility == true
-        %}
-        <div class="project-card">
-          <div class="card-img-container">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="card-img" alt="" />
-          </div>
-          <div class="card-details">
-            <h4 class="experience-title">{{ exp.designation }}</h4>
-            <h6 class="experience-info">{{ exp.company_name}}</h6>
-            <p class="experience-desc">{{ exp.description }}</p>
-            <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
-          </div>
-        </div>
-        {% endif %} {% endfor %}
-      </div>
-      {% endif %} {% if site.show_author_education_details == true %}
-      <div class="card author_projects">
-        <h1 class="card-title">Education</h1>
-        <br />
-        {% for detail in site.author_education_details %} {% if detail.visibility
-        == true %}
-        <div class="project-card">
-          <div class="card-img-container">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="card-img" alt="" />
-          </div>
-          <div class="card-details">
-            <h4 class="experience-title">{{detail.college_degree }}</h4>
-            <h6 class="experience-info">{{detail.college_name}}</h6>
-            <p class="experience-desc">{{detail.description}}</p>
-            <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
-          </div>
-        </div>
-        {% endif %} {% endfor %}
-      </div>
+      {% if site.author_location %}
+      <h6><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
+      {% endif %} {% if site.author_email %}
+      <h6><i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
+      {% endif %} {% if site.author_website_url %}
+      <h6><i class="fas fa-link"></i> {{ site.author_website_url }}</h6>
+      {% endif %} {% if site.author_cv %}
+      <h6><object data="{{site.url}}{{site.baseurl}}/assets/img/cv.svg" width="25" height="18"></object><a
+          href="{{ site.author_cv }}">Curriculum Vitae</a></h6>
       {% endif %}
     </div>
+
+    <div class="card">
+      <h1>Skills</h1>
+
+      {%- include author_skills.html -%}
+    </div>
+  </div>
+  <div class="author-experiences">
+    {% if site.author_bio %}
+    <div class="card">
+      <h1 class="card-title">About</h1>
+      <p>{{ site.author_bio }}</p>
+    </div>
+    {% endif %} {% if site.show_author_project_details == true %}
+    <div class="card author_projects">
+      <h1 class="card-title">Projects</h1>
+      <br />
+      {% for project in site.author_project_details %} {% if project.visibility
+      == true %}
+      <div class="project-card">
+        <div class="card-img-container">
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="card-img"
+            alt="" />
+        </div>
+        <div class="card-details">
+          <h4 class="experience-title">{{ project.project_title }}</h4>
+          {% if project.project_info %}<h6 class="experience-info">{{ project.project_info }}</h6>{% endif %}
+          <p class="experience-desc">{{ project.project_description }}</p>
+          <p>
+            <a class="project-link" href="{{project.project_url}}">{{ project.project_url}}</a>
+          </p>
+        </div>
+      </div>
+      <br />
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %} {% if site.show_author_work_experiences == true %}
+    <div class="card author_projects">
+      <h1 class="card-title">Work Experience</h1>
+      <br />
+      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
+      %}
+      <div class="project-card">
+        <div class="card-img-container">
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="card-img" alt="" />
+        </div>
+        <div class="card-details">
+          <h4 class="experience-title">{{ exp.designation }}</h4>
+          <h6 class="experience-info">{{ exp.company_name}}</h6>
+          <p class="experience-desc">{{ exp.description }}</p>
+          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %} {% if site.show_author_education_details == true %}
+    <div class="card author_projects">
+      <h1 class="card-title">Education</h1>
+      <br />
+      {% for detail in site.author_education_details %} {% if detail.visibility
+      == true %}
+      <div class="project-card">
+        <div class="card-img-container">
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="card-img" alt="" />
+        </div>
+        <div class="card-details">
+          <h4 class="experience-title">{{detail.college_degree }}</h4>
+          <h6 class="experience-info">{{detail.college_name}}</h6>
+          <p class="experience-desc">{{detail.description}}</p>
+          <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </div>

@@ -20,6 +20,11 @@ I spent most of the time this week studying the `librsb` library...
 # Some theory
 ## What is a sparse matrix? What are they used for?
 ## Why should we treat these matrices differently?
-## Recursive Sparse Blocks
+## Recursive Sparse Blocks format(s)(?)
+### COO (coordinate list)
+### CSR (compressed sparse rows)
+### CSC (compresses sparse columns)
 
-# The operations
+# The LibRSB library
+## Problems
+## What I should do
