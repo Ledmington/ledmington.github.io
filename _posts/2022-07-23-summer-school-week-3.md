@@ -15,6 +15,15 @@ usemathjax: true
 published: false
 ---
 
-Hi everyone!
+## Recursive Sparse Blocks
 
-I've been selected to participate in the PRACE's Summer School of HPC.
+# The operations
+ - SpMV
+ - SpVV
+ - SpMM
+ - SpSM
+ - SpSV
+
+# cuSPARSE CUDA API
+## Standard calls
+## CUDA Streams and CUDA Graphs
