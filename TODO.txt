@@ -41,3 +41,5 @@ Maybe little glow effect also on buttons in top bar
 In Skills, maybe add little logos of languages and libraries (and links, of course)
 
 Use appropriate fonts (the numbers in the posts and post titles are wonky).
+
+Change categories in hundered rabbits post.
