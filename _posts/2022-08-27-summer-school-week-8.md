@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PRACE Summer School of HPC Blog #8"
-summary: "Final report"
+summary: "Final report and recap"
 author: ledmington
 date: '2022-08-27 12:35:00 +0000'
 category:
