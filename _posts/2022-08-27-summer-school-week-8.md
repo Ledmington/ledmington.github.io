@@ -18,3 +18,11 @@ published: false
 Hi everyone!
 
 I've been selected to participate in the PRACE's Summer School of HPC.
+
+Thanks to:
+ - mathi, of course
+ - kostantinos and alexander
+ - sara, for the free coffee and ...
+ - pierre-yves, for having taught me verlan like five times
+ - gabriel, for the nice jokes and the ping pong match
+ - 
