@@ -17,6 +17,32 @@ published: false
 
 I don't know if you know what a C macro is, so I'm giving you a little explanation.
 
+A [macro](https://gcc.gnu.org/onlinedocs/cpp/Macros.html) is a special kind of **preprocessor directive** and it's a feature of the C language. As far as I know, no other language after C has used again this feature for many reasonable reasons, the first one being that
+> Using macros is writing code inside your code.
+
+Like all the other preprocessor directives, macros allows you to control the compiler behavior *while it's compiling your code*, but in an indirect way. Macros are mostly symbols, variables that can be `#define`d usually to tell the compiler to include a certain header file only once, the so-called **include guards**. Other macros are mappings of strings to other strings or functions to other functions. When a compiler encounters a macro, it substitutes every occurrence of that symbol with the (optional) second part. Let's go through some example.
+
+Let's say that you want to quick way to log to the console in your program so you define this macro:
+```c
+#define LOG printf
+```
+and now you can use it like this:
+```c
+LOG("x is %d\n", x);
+```
+and the compiler will change it to:
+```c
+printf("x is %d\n", x);
+```
+
+This is not a clever way to use macros, since a string like `"I LOVE LOGGING"` would also be modified to `"I LOVE printfGING"`. For this reason, usually a logging macro is deifned as follows:
+```c
+#define LOG(fmt, ...) printf("[%s]"fmt, get_time(), ...)
+```
+This macro substitutes every `LOG` to a call to printf and it also adds the current timestamp.
+
+...
+
 ## Macro's house of horrors
 - macros that map to nothing
 - macros that map to macros that map to nothing
