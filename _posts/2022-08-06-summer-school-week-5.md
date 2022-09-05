@@ -35,13 +35,43 @@ and the compiler will change it to:
 printf("x is %d\n", x);
 ```
 
-This is not a clever way to use macros, since a string like `"I LOVE LOGGING"` would also be modified to `"I LOVE printfGING"`. For this reason, usually a logging macro is deifned as follows:
+This is not a clever way to use macros, since a string like `"I LOVE LOGGING"` would also be modified to `"I LOVE printfGING"`. For this reason, usually a logging macro is defined as follows:
 ```c
 #define LOG(fmt, ...) printf("[%s]"fmt, get_time(), ...)
 ```
 This macro substitutes every `LOG` to a call to printf and it also adds the current timestamp.
 
+These ones are the macros that can be used inside the code, because they have some behavior. Other macros, commonly defined as **symbols** are "macros that map to nothing" and are usually used totell the compiler that a certain library is already included or that the machine is using a certain library. For example, the *include guards*
+```c
+#ifndef MY_LIBRARY_INCLUDED
+#define MY_LIBRARY_INCLUDED
 ...
+#endif
+```
+assure you that a certain file will not be included twice. Another common example is the function that retrieves the current time.
+```c
+#if defined(_WIN32)
+#include <Windows.h>
+long get_time() {
+    LARGE_INTEGER Frequency, tm;
+
+    QueryPerformanceFrequency(&Frequency); 
+    QueryPerformanceFrequency(&tm); 
+
+    tm.QuadPart *= 1000000;
+    tm.QuadPart /= Frequency.QuadPart;
+
+    return tm.QuadPart;
+}
+#elif defined(__linux__)
+#include <time.h>
+long get_time() {
+    struct timespec tm;
+    clock_gettime(CLOCK_MONOTONIC, &tm);
+    return (tm.tv_sec * 1000000) + (tm.tv_nsec / 1000);
+}
+#endif
+```
 
 ## Macro's house of horrors
 - macros that map to nothing
