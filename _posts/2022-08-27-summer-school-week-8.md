@@ -15,7 +15,7 @@ usemathjax: true
 published: false
 ---
 
-Hi everyone!
+Hi everyone! Sorry for last week's missing post, I was a bit busy with the last things ...
 
 I've been selected to participate in the PRACE's Summer School of HPC.
 
