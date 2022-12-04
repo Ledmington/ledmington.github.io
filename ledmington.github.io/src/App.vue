@@ -24,6 +24,8 @@ import HelloWorld from "./components/HelloWorld.vue";
   </header>
 
   <RouterView />
+
+  <footer>Powered by <img src="./assets/vue-logo.png" /></footer>
 </template>
 
 <style scoped>

@@ -37,6 +37,12 @@ typewrite-text: Developer and student
 
 # Experiences
 author_work_experiences:
+  - company_name: CINECA
+    company_logo: cineca-logo.png
+    company_url: https://www.cineca.it
+    designation: HPC Technology Specialist junior
+    description: Performance evaluation and benchmarking of parallel architectures
+    visibility: true
   - company_name: University of Luxembourg
     company_logo: sohpc-logo.png
     company_url: https://summerofhpc.prace-ri.eu
