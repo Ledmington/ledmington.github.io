@@ -19,6 +19,7 @@ import MainTitle from "./components/MainTitle.vue";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/cv">CV</RouterLink>
         <RouterLink to="/blog">Blog</RouterLink>
         <RouterLink to="/contact">Contact Me</RouterLink>
       </nav>
@@ -28,7 +29,10 @@ import MainTitle from "./components/MainTitle.vue";
   <!-- This is the actual content pointed by the router -->
   <RouterView />
 
-  <footer>Powered by <img src="./assets/logo.svg" /></footer>
+  <footer>
+    Powered by <img src="./assets/logo.svg" />. Hosted at
+    <img src="./assets/github/github.svg" />.
+  </footer>
 </template>
 
 <style scoped>
