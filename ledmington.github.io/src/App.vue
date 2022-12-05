@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import MainTitle from "./components/MainTitle.vue";
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <MainTitle msg="You did it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -25,15 +25,21 @@ import HelloWorld from "./components/HelloWorld.vue";
     </div>
   </header>
 
+  <!-- This is the actual content pointed by the router -->
   <RouterView />
 
-  <footer>Powered by <img src="./assets/vue-logo.png" /></footer>
+  <footer>Powered by <img src="./assets/logo.svg" /></footer>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+footer > img {
+  width: 20px;
+  height: 20px;
 }
 
 .logo {
