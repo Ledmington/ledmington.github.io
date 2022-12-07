@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "trello": "open https://cryptpad.fr/kanban/#/2/kanban/edit/tsdSd2XS8OKvyKVTUMsXCgXH/"
+    "trello": "open https://cryptpad.fr/kanban/#/2/kanban/edit/tsdSd2XS8OKvyKVTUMsXCgXH/ 2> /dev/null &",
+    "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
     "vue": "^3.2.45",

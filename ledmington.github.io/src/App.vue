@@ -15,23 +15,24 @@ import MainTitle from "./components/MainTitle.vue";
 
     <div class="wrapper">
       <MainTitle msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/cv">CV</RouterLink>
-        <RouterLink to="/blog">Blog</RouterLink>
-        <RouterLink to="/contact">Contact Me</RouterLink>
-      </nav>
     </div>
+
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/cv">CV</RouterLink>
+      <RouterLink to="/blog">Blog</RouterLink>
+      <RouterLink to="/contact">Contact Me</RouterLink>
+    </nav>
   </header>
 
   <!-- This is the actual content pointed by the router -->
   <RouterView />
 
   <footer>
-    Powered by <img src="./assets/logo.svg" />. Hosted at
-    <img src="./assets/github/github.svg" />.
+    Powered by <a href="https://vuejs.org"><img src="./assets/logo.svg" /></a>.
+    Hosted at
+    <a href="https://github.com"><img src="./assets/github/github.svg" /></a>.
   </footer>
 </template>
 
@@ -41,7 +42,7 @@ header {
   max-height: 100vh;
 }
 
-footer > img {
+footer > a > img {
   width: 20px;
   height: 20px;
 }
@@ -52,10 +53,10 @@ footer > img {
 }
 
 nav {
+  height: 10%;
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {
