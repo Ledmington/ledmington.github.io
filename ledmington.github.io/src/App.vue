@@ -36,7 +36,9 @@ import MainTitle from "./components/MainTitle.vue";
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "colors.scss";
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -53,29 +55,48 @@ footer > a > img {
 }
 
 nav {
-  height: 10%;
+  // Fixed top
   width: 100%;
+  position: fixed;
+  top: 0;
+
+  height: 10%;
+  overflow: hidden;
+  background-color: $background_dark;
   font-size: 12px;
   text-align: center;
+
+  a {
+    float: left;
+    display: block;
+    padding: 0 1rem;
+    color: $text_color;
+
+    // border-left: 1px solid red;
+
+    // :first-of-type {
+    //   border: 0;
+    // }
+  }
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
+// nav a.router-link-exact-active {
+//   color: var(--color-text);
+// }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
+// nav a.router-link-exact-active:hover {
+//   background-color: transparent;
+// }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
+// nav a {
+//   display: inline-block;
+//   padding: 0 1rem;
+//   border-left: 1px solid var(--color-border);
+// }
 
-nav a:first-of-type {
-  border: 0;
-}
+// nav a:first-of-type {
+//   border: 0;
+// }
 
 @media (min-width: 1024px) {
   header {
