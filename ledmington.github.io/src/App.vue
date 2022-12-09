@@ -5,8 +5,8 @@ import MainTitle from "./components/MainTitle.vue";
 
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
-    <img alt="Vue logo" class="logo" src="@/assets/profile.jpeg" />
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/img/logo.svg" width="125" height="125" /> -->
+    <img alt="Vue logo" class="logo" src="@/assets/img/profile.jpeg" />
 
     <div class="wrapper">
       <MainTitle msg="You did it!" />
@@ -32,9 +32,11 @@ import MainTitle from "./components/MainTitle.vue";
   <RouterView />
 
   <footer>
-    Powered by <a href="https://vuejs.org"><img src="./assets/logo.svg" /></a>.
-    Hosted at
-    <a href="https://github.com"><img src="./assets/github/github.svg" /></a>.
+    Powered by
+    <a href="https://vuejs.org"><img src="./assets/img/logo.svg" /></a>. Hosted
+    at
+    <a href="https://github.com"><img src="./assets/img/github/github.svg" /></a
+    >.
   </footer>
 </template>
 
@@ -51,7 +53,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "colors.scss";
+@import "./assets/css/colors.scss";
 
 header {
   line-height: 1.5;
