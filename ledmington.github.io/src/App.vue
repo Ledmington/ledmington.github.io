@@ -19,6 +19,13 @@ import MainTitle from "./components/MainTitle.vue";
       <RouterLink to="/blog">Blog</RouterLink>
       <RouterLink to="/contact">Contact Me</RouterLink>
     </nav>
+
+    <input
+      id="theme-switch"
+      @click="themeSwitch"
+      type="checkbox"
+      name="checkbox"
+    />
   </header>
 
   <!-- This is the actual content pointed by the router -->
@@ -30,6 +37,18 @@ import MainTitle from "./components/MainTitle.vue";
     <a href="https://github.com"><img src="./assets/github/github.svg" /></a>.
   </footer>
 </template>
+
+<script>
+export default {
+  data: () => {},
+  mounted() {},
+  methods: {
+    themeSwitch: function () {
+      console.log("Switching theme");
+    },
+  },
+};
+</script>
 
 <style scoped lang="scss">
 @import "colors.scss";
