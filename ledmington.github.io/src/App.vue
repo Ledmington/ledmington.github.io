@@ -5,13 +5,8 @@ import MainTitle from "./components/MainTitle.vue";
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
+    <img alt="Vue logo" class="logo" src="@/assets/profile.jpeg" />
 
     <div class="wrapper">
       <MainTitle msg="You did it!" />
@@ -44,12 +39,10 @@ header {
   max-height: 100vh;
 }
 
-footer > a > img {
-  width: 20px;
-  height: 20px;
-}
-
 .logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   display: block;
   margin: 0 auto 2rem;
 }
@@ -57,7 +50,7 @@ footer > a > img {
 nav {
   // Fixed top
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
 
   height: 10%;
@@ -77,6 +70,21 @@ nav {
     // :first-of-type {
     //   border: 0;
     // }
+  }
+}
+
+footer {
+  // Fixed bottom
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;
+
+  a > img {
+    width: 20px;
+    height: 20px;
   }
 }
 
