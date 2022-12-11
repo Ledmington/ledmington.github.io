@@ -55,10 +55,10 @@ export default {
 <style scoped lang="scss">
 @import "./assets/css/colors.scss";
 
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+// header {
+//   line-height: 1.5;
+//   max-height: 100vh;
+// }
 
 .logo {
   width: 150px;
@@ -83,8 +83,8 @@ nav {
   a {
     float: left;
     display: block;
+    border-radius: 5px;
     padding: 0 1rem;
-    color: $text_color;
 
     // border-left: 1px solid red;
 
@@ -127,30 +127,30 @@ footer {
 //   border: 0;
 // }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+// @media (min-width: 1024px) {
+//   header {
+//     display: flex;
+//     place-items: center;
+//     padding-right: calc(var(--section-gap) / 2);
+//   }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+//   .logo {
+//     margin: 0 2rem 0 0;
+//   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+//   header .wrapper {
+//     display: flex;
+//     place-items: flex-start;
+//     flex-wrap: wrap;
+//   }
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
+//   nav {
+//     text-align: left;
+//     margin-left: -1rem;
+//     font-size: 1rem;
 
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
+//     padding: 1rem 0;
+//     margin-top: 1rem;
+//   }
+// }
 </style>
