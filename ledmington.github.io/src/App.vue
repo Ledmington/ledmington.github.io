@@ -1,16 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import MainTitle from "./components/MainTitle.vue";
+// import MainTitle from "./components/MainTitle.vue";
 </script>
 
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/img/logo.svg" width="125" height="125" /> -->
-    <img alt="Vue logo" class="logo" src="@/assets/img/profile.jpeg" />
+    <img alt="Profile photo" class="logo" src="@/assets/img/profile.jpeg" />
 
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <MainTitle msg="You did it!" />
-    </div>
+    </div> -->
 
     <nav>
       <RouterLink to="/">Home</RouterLink>
@@ -55,11 +54,6 @@ export default {
 <style scoped lang="scss">
 @import "./assets/css/colors.scss";
 
-// header {
-//   line-height: 1.5;
-//   max-height: 100vh;
-// }
-
 .logo {
   width: 150px;
   height: 150px;
@@ -102,6 +96,9 @@ footer {
   left: 0;
 
   text-align: center;
+  height: 10%;
+  background-color: $background_dark;
+  color: $white_text_color;
 
   a > img {
     width: 20px;

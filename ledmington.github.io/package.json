@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "trello": "open https://cryptpad.fr/kanban/#/2/kanban/edit/tsdSd2XS8OKvyKVTUMsXCgXH/ 2> /dev/null &",
+    "update": "npx npm-check-updates -u",
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
@@ -16,15 +17,15 @@
     "vue-writer": "^1.2.0"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.4",
-    "@vitejs/plugin-vue": "^3.2.0",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
-    "eslint": "^8.22.0",
-    "eslint-plugin-vue": "^9.3.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-vue": "^9.8.0",
     "node-sass": "^8.0.0",
-    "prettier": "^2.7.1",
-    "sass": "^1.56.1",
+    "prettier": "^2.8.1",
+    "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
-    "vite": "^3.2.4"
+    "vite": "^4.0.1"
   }
 }
