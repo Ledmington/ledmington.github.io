@@ -13,12 +13,6 @@ import PhotoCard from "../components/PhotoCard.vue";
       </MainCard>
 
       <PhotoCard>
-        <template #photo
-          ><img
-            alt="Profile photo"
-            class="logo"
-            src="@/assets/img/profile.jpeg"
-        /></template>
         <template #location>Riccione, Italy</template>
         <template #email>filippo.barbari@gmail.com</template>
         <template #url>https://ledmington.github.io</template>
@@ -28,13 +22,15 @@ import PhotoCard from "../components/PhotoCard.vue";
         <template #title>Mottos</template>
         <template #content>
           <p>
-            <i>If a computer can do it, a computer should do it.</i><br />&mdash;
-            Robert C. Martin AKA Uncle Bob
-          </p><br />
+            <i>If a computer can do it, a computer should do it.</i
+            ><br />&mdash; Robert C. Martin AKA Uncle Bob
+          </p>
+          <br />
           <p>
             <i>The only way to go fast is to go well.</i><br />&mdash; Robert C.
             Martin AKA Uncle Bob
-          </p><br />
+          </p>
+          <br />
           <p>
             <i>Your first 10,000 photographs are your worst.</i><br />&mdash;
             Henri Cartier-Bresson

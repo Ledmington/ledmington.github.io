@@ -50,14 +50,6 @@ export default {
 <style scoped lang="scss">
 @import "./assets/css/colors.scss";
 
-.logo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 header {
   // Fixed top
   width: 100%;

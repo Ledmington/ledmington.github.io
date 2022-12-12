@@ -9,9 +9,7 @@ import HyperlinkIcon from "./icons/HyperlinkIcon.vue";
 
 <template>
   <div class="card">
-    <h3>
-      <slot name="title"></slot>
-    </h3>
+    <img alt="Profile photo" class="photo" src="@/assets/img/profile.jpeg" />
     <p class="profile-links">
       <a href="https://github.com/Ledmington"><GithubIcon /></a
       ><a href="https://www.linkedin.com/in/filippo-barbari-bb2b55181/"
@@ -36,5 +34,13 @@ import HyperlinkIcon from "./icons/HyperlinkIcon.vue";
   border: 2px solid black;
   margin: 10px;
   padding: 5px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 2rem;
 }
 </style>
