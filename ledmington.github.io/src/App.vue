@@ -5,8 +5,6 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <img alt="Profile photo" class="logo" src="@/assets/img/profile.jpeg" />
-
     <!-- <div class="wrapper">
       <MainTitle msg="You did it!" />
     </div> -->
@@ -32,10 +30,8 @@ import { RouterLink, RouterView } from "vue-router";
 
   <footer>
     Powered by
-    <a href="https://vuejs.org"><img src="./assets/img/logo.svg" /></a>. Hosted
-    at
-    <a href="https://github.com"><img src="./assets/img/github/github.svg" /></a
-    >.
+    <a href="https://vuejs.org">Vue.js</a>. Hosted at
+    <a href="https://github.com">GitHub</a>.
   </footer>
 </template>
 
@@ -62,7 +58,7 @@ export default {
   margin: 0 auto 2rem;
 }
 
-nav {
+header {
   // Fixed top
   width: 100%;
   position: absolute;
@@ -86,6 +82,16 @@ nav {
     //   border: 0;
     // }
   }
+
+  input {
+    float: right;
+    position: relative;
+    width: 80px;
+    height: 38px;
+    border-radius: 25px;
+    background-image: url("./assets/img/day-sky.png");
+    background-size: cover;
+  }
 }
 
 footer {
@@ -99,11 +105,6 @@ footer {
   height: 10%;
   background-color: $background_dark;
   color: $white_text_color;
-
-  a > img {
-    width: 20px;
-    height: 20px;
-  }
 }
 
 // nav a.router-link-exact-active {

@@ -1,6 +1,4 @@
 <script setup>
-import CardContainer from "./CardContainer.vue";
-import MainCard from "./MainCard.vue";
 import WelcomeItem from "./WelcomeItem.vue";
 // import DocumentationIcon from "./icons/IconDocumentation.vue";
 // import ToolingIcon from "./icons/IconTooling.vue";
@@ -120,56 +118,4 @@ import WelcomeItem from "./WelcomeItem.vue";
       >becoming a sponsor</a
     >.
   </WelcomeItem>
-
-  <CardContainer>
-    <MainCard>
-      <template #title>Esempio Card</template>
-      <template #content
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!</template
-      >
-    </MainCard>
-
-    <MainCard>
-      <template #title>Esempio Card</template>
-      <template #content
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!</template
-      >
-    </MainCard>
-
-    <MainCard>
-      <template #title>Esempio Card</template>
-      <template #content
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!</template
-      >
-    </MainCard>
-
-    <MainCard>
-      <template #title>Esempio Card</template>
-      <template #content
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!</template
-      >
-    </MainCard>
-
-    <MainCard>
-      <template #title>Esempio Card</template>
-      <template #content
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum!</template
-      >
-    </MainCard>
-  </CardContainer>
 </template>
