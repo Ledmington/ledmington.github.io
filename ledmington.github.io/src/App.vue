@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import ThemeSwitcher from "./components/ThemeSwitcher.vue";
 // import MainTitle from "./components/MainTitle.vue";
 </script>
 
@@ -17,12 +18,7 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/contact">Contact Me</RouterLink>
     </nav>
 
-    <input
-      id="theme-switch"
-      @click="themeSwitch"
-      type="checkbox"
-      name="checkbox"
-    />
+    <ThemeSwitcher />
   </header>
 
   <!-- This is the actual content pointed by the router -->
@@ -35,31 +31,22 @@ import { RouterLink, RouterView } from "vue-router";
   </footer>
 </template>
 
-<script>
-export default {
-  data: () => {},
-  mounted() {},
-  methods: {
-    themeSwitch: function () {
-      console.log("Switching theme");
-    },
-  },
-};
-</script>
-
 <style scoped lang="scss">
 @import "./assets/css/colors.scss";
 
 header {
   // Fixed top
   width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   margin: 0;
   overflow: auto;
+  z-index: 1030;
+  box-shadow: #000 0px 0px 8px;
 
-  height: 5%;
+  height: 8%;
   background-color: $background_dark;
   font-size: 12px;
   text-align: center;
@@ -75,16 +62,6 @@ header {
     // :first-of-type {
     //   border: 0;
     // }
-  }
-
-  input {
-    float: right;
-    position: relative;
-    width: 80px;
-    height: 38px;
-    border-radius: 25px;
-    background-image: url("./assets/img/day-sky.png");
-    background-size: cover;
   }
 }
 

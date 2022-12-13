@@ -11,5 +11,7 @@
   display: grid;
   grid-template-columns: 40% 60%;
   width: 100%;
+  top: 0;
+  margin-top: 5%;
 }
 </style>
