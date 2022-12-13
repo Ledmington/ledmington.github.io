@@ -7,8 +7,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "serve": "static-server dist",
     "trello": "open https://cryptpad.fr/kanban/#/2/kanban/edit/tsdSd2XS8OKvyKVTUMsXCgXH/ 2>/dev/null &",
-    "icons":"open https://iconmonstr.com/ 2>/dev/null &",
+    "icons": "open https://iconmonstr.com/ 2>/dev/null &",
     "update": "npx npm-check-updates -u",
     "clean": "rm -rf dist node_modules"
   },
@@ -27,6 +28,7 @@
     "prettier": "^2.8.1",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
+    "static-server": "^2.2.1",
     "vite": "^4.0.1"
   }
 }

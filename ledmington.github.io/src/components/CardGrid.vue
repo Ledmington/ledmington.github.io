@@ -1,14 +1,15 @@
 <template>
-  <div class="container">
+  <div class="card-grid">
     <slot></slot>
   </div>
 </template>
 
-<style scope lang="scss">
+<style scoped lang="scss">
 @import "../assets/css/colors.scss";
 
-.container {
+.card-grid {
   display: grid;
   grid-template-columns: 40% 60%;
+  width: 100%;
 }
 </style>

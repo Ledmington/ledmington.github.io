@@ -53,11 +53,13 @@ export default {
 header {
   // Fixed top
   width: 100%;
-  position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  overflow: auto;
 
-  height: 10%;
-  overflow: hidden;
+  height: 5%;
   background-color: $background_dark;
   font-size: 12px;
   text-align: center;
@@ -89,9 +91,9 @@ header {
 footer {
   // Fixed bottom
   width: 100%;
-  position: absolute;
   bottom: 0;
   left: 0;
+  right: 0;
 
   text-align: center;
   height: 10%;
