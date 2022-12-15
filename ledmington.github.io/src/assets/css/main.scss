@@ -39,18 +39,18 @@ svg {
   }
 } */
 
-/* Scrollbar */
-/* width */
+// Scrollbar
+// width
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
+// Track
 ::-webkit-scrollbar-track {
   background: $scrollbar_background;
 }
 
-/* Handle */
+// Handle
 ::-webkit-scrollbar-thumb {
   background: $scrollbar_color;
   border-radius: 5px;
