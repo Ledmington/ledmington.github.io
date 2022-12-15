@@ -1,5 +1,5 @@
 {
-  "name": "ledmington.github.io",
+  "name": "filippobarbari.it",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "trello": "open https://cryptpad.fr/kanban/#/2/kanban/edit/tsdSd2XS8OKvyKVTUMsXCgXH/ 2>/dev/null &",
     "icons": "open https://iconmonstr.com/ 2>/dev/null &",
     "update": "npx npm-check-updates -u",
+    "docker": "docker build -t filippobarbari.it . && docker run -it --rm -p 80:80 filippobarbari.it",
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
