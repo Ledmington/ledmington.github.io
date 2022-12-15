@@ -9,11 +9,20 @@
 
 <script>
 export default {
-  data: () => {},
+  data: function () {
+    return {
+      theme: "dark",
+    };
+  },
   mounted() {},
   methods: {
     themeSwitch: function () {
-      console.log("Switching theme");
+      if (this.theme == "light") {
+        this.theme = "dark";
+      } else if (this.theme == "dark") {
+        this.theme = "light";
+      }
+      console.log("The current theme is " + this.theme);
     },
   },
 };
