@@ -12,6 +12,7 @@
 a {
   /* disable standard link rendering */
   text-decoration: none;
+
   color: $text_color;
   transition: 0.4s;
 
@@ -37,3 +38,24 @@ svg {
     padding: 0 2rem;
   }
 } */
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $scrollbar_background;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $scrollbar_color;
+  border-radius: 5px;
+
+  &:hover {
+    background: $scrollbar_highlight;
+  }
+}

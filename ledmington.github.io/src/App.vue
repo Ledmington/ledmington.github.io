@@ -17,11 +17,9 @@ import ThemeSwitcher from "./components/ThemeSwitcher.vue";
       <RouterLink to="/blog">Blog</RouterLink>
       <RouterLink to="/contact">Contact Me</RouterLink>
     </nav>
-
     <ThemeSwitcher />
   </header>
 
-  <!-- This is the actual content pointed by the router -->
   <RouterView />
 
   <footer>
@@ -48,12 +46,10 @@ header {
 
   height: 8%;
   background-color: $background_dark;
-  font-size: 12px;
-  text-align: center;
+  font-size: 15px;
 
   a {
     float: left;
-    display: block;
     border-radius: 5px;
     padding: 0 1rem;
 

@@ -31,9 +31,10 @@ export default {
 <style scoped lang="scss">
 #theme-switch {
   position: relative;
+  float: right;
   width: 80px;
   height: 38px;
-  margin: 3px;
+  margin: 5px 5px 5px 0;
   appearance: none;
   -webkit-appearance: none;
   background-image: url("../assets/img/night-sky.png");
