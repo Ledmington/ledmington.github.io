@@ -8,7 +8,9 @@ import PhotoCard from "../components/PhotoCard.vue";
   <CardGrid>
     <MainCard>
       <template #title>Skills</template>
-      <template #content>C, Java, Python<br />CUDA, OpenMP, MPI</template>
+      <template #content
+        >C, C++, Java, Python<br />CUDA, OpenMP, MPI, SYCL</template
+      >
     </MainCard>
 
     <PhotoCard>
@@ -40,8 +42,8 @@ import PhotoCard from "../components/PhotoCard.vue";
     <MainCard>
       <template #title>About</template>
       <template #content
-        >Developer and master student at University of Bologna. Algorithms and
-        Data Structures enthusiast. I love esoteric languages, board games and
+        >HPC Technology Specialist @ CINECA, Italy. Algorithms and Data
+        Structures enthusiast. I love esoteric languages, board games and
         parallel simulations.</template
       >
     </MainCard>
