@@ -1,5 +1,5 @@
 title: Filippo Barbari
-subtitle: Developer and student
+subtitle: HPC Technology Specialist @ CINECA, Italy
 description: >- # this means to ignore newlines until "baseurl:"
   Filippo Barbari's personal website
 
@@ -28,7 +28,7 @@ urls:
 
 author_logo: authors/ledmington.jpeg
 author: Filippo Barbari
-author_bio: "Developer and master student at University of Bologna. Algorithms and Data Structures enthusiast. I love esoteric languages, board games and parallel simulations."
+author_bio: "HPC Technology Specialist @ CINECA, Italy. Algorithms and Data Structures enthusiast. I love esoteric languages, board games and parallel simulations."
 author_email: "filippo.barbari@gmail.com"
 author_location: Riccione, Italy
 author_website_url: "https://ledmington.github.io"
@@ -58,12 +58,12 @@ author_work_experiences:
 
 # Education
 author_education_details:
-  - college_logo: unibo_logo.jpg
-    college_name: University of Bologna
-    college_url: https://www.unibo.it/it
-    college_degree: Master's degree
-    description: Computer Science and Engineering
-    visibility: true
+  # - college_logo: unibo_logo.jpg
+  #   college_name: University of Bologna
+  #   college_url: https://www.unibo.it/it
+  #   college_degree: Master's degree
+  #   description: Computer Science and Engineering
+  #   visibility: true
   - college_logo: unibo_logo.jpg
     college_name: University of Bologna
     college_url: https://www.unibo.it/it
@@ -78,11 +78,6 @@ author_project_details:
     project_description: Bachelor's degree thesis project.
     project_url: https://github.com/Ledmington/bellman-ford-cuda
     visibility: true
-  - project_thumbnail: python.png
-    project_title: Decentralized Distributed Machine Learning
-    project_description: Train machine learning models over a Peer-to-Peer network.
-    project_url: https://github.com/Ledmington/DDML
-    visibility: true
   #- project_thumbnail: hack4r.PNG
   #  project_title: Hack4r
   #  project_description: A Platform built for Hackers and Penetration Testers
@@ -92,14 +87,14 @@ author_project_details:
 external_links:
   - name: Development
     sites:
-      - baseurl: https://github.com
+      - baseurl: https://github.com/Ledmington
         username: Ledmington
         icon_name: fab fa-github
         name: GitHub
 
 # social links
 #twitter_username: johndoe
-github_username:  Ledmington
+github_username: Ledmington
 #facebook_username: johndoe
 linkedin_username: filippo-barbari-bb2b55181
 #behance_username: johndoe
