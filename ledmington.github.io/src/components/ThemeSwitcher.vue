@@ -139,7 +139,10 @@ export default {
 
   90% {
     background-color: #f5daaa;
-    box-shadow: 0px 0px 10px #f5deb4, 0px 0px 20px #f5deb4, 0px 0px 30px #f5deb4,
+    box-shadow:
+      0px 0px 10px #f5deb4,
+      0px 0px 20px #f5deb4,
+      0px 0px 30px #f5deb4,
       inset 0px 0px 2px #efd3a3;
     filter: blur(1px);
   }
@@ -147,7 +150,10 @@ export default {
   100% {
     transform: rotate(0deg);
     background-color: #f5daaa;
-    box-shadow: 0px 0px 10px #f5deb4, 0px 0px 20px #f5deb4, 0px 0px 30px #f5deb4,
+    box-shadow:
+      0px 0px 10px #f5deb4,
+      0px 0px 20px #f5deb4,
+      0px 0px 30px #f5deb4,
       inset 0px 0px 2px #efd3a3;
     filter: blur(1px);
   }
@@ -163,7 +169,10 @@ export default {
   top: 4px;
   filter: blur(1px);
   background-color: #f5daaa;
-  box-shadow: 0px 0px 10px #f5deb4, 0px 0px 20px #f5deb4, 0px 0px 30px #f5deb4,
+  box-shadow:
+    0px 0px 10px #f5deb4,
+    0px 0px 20px #f5deb4,
+    0px 0px 30px #f5deb4,
     inset 0px 0px 2px #efd3a3;
   transform-origin: 53px 10px;
   animation: moon 0.7s forwards ease;
