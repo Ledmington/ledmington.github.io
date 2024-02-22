@@ -1,25 +1,11 @@
 Capire come creare il container docker con il sito (per vederlo in locale) e preparare uno script (o un makefile) con le istruzioni
 
-Aggiungere file aggiuntivi (attestati vari) del CV almeno nella cartella del progetto
-
 Rimuovere immagini inutili da assets/img/
 
 Sistemare icona "CV" nella home (centrata verticalmente rispetto al suo h6)
 Add light-mode variant of the CV icon in About
 
 Cercare di capire quali file sono inutili ed eliminarli
-
-Cercare altri temi per jekyll e capire come impostarli
-
-Create a test that tries by bruteforce all possible pages and ensures that only a certain set are reachable/visible.
-
-Create a test that finds what files in the root folder are not used to build the site.
-
-Create a test that finds what portions of CSS are not used (is it possible?)
-
-Create a test to compute lighthouse scores on each page?
-
-Add CSS validator (https://github.com/nad2000/W3C-Validator/blob/master/w3c_validator/validator.py)
 
 Maybe increase the contrast of colors in home page?
 
@@ -42,4 +28,4 @@ In Skills, maybe add little logos of languages and libraries (and links, of cour
 
 Use appropriate fonts (the numbers in the posts and post titles are wonky).
 
-Change categories in hundered rabbits post.
+Change categories in hundred rabbits post.

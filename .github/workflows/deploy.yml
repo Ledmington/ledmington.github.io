@@ -4,13 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    needs: test
     steps:
     - uses: actions/checkout@v2
     - name: Deploy Jekyll Site
